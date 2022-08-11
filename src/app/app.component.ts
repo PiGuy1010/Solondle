@@ -293,6 +293,7 @@ export class AppComponent implements OnInit {
   copyClicked() {
     let colors = {"green": "🟩", "#D8BC09": "🟨", "rgb(66, 66, 66)": "⬛"}
     let counter = 0
+    this.rowColors = ""
     this.rowColors = this.rowColors + "Solondle #" + this.computeNumber() + "\n"
     for (var row of this.guessedRows) {
       this.rowColors = this.rowColors + colors[this.computeYearShading(row.end_year)['background'] as keyof typeof colors]
