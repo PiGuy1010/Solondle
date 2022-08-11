@@ -9,6 +9,8 @@ import nameData from '../nameData.json';
 import powerData from '../powers.json';
 import tenData from '../tens.json';
 import negData from '../negs.json';
+import { formatDistanceStrict, subDays } from 'date-fns'
+import differenceInDays from 'date-fns/differenceInDays'
 // import * as fs from 'fs';
 declare var require: any;
 
@@ -37,6 +39,7 @@ export class AppComponent implements OnInit {
   correct: keyof typeof nameData = this.getDailyAnswer() as keyof typeof nameData
   id!: string;
   won = false;
+  rowColors: string = "";
 
   @ViewChild(MatTable) table!: MatTable<QBPlayer>;
   @ViewChild(MatAutocomplete) guess!: MatAutocomplete;
@@ -131,7 +134,7 @@ export class AppComponent implements OnInit {
     if (guessName === this.correct) {
       return {'background': 'green'}
     }
-    return {}
+    return {'background': 'rgb(66, 66, 66)'}
   }
 
   computeYearShading(guessYear: number) {
@@ -142,7 +145,7 @@ export class AppComponent implements OnInit {
     if (guessYear-1 === correctYear || guessYear+1 === correctYear) {
       return {'background': '#D8BC09'}
     }
-    return {}
+    return {'background': 'rgb(66, 66, 66)'}
   }
 
   computeTournamentShading(guessTP: number) {
@@ -153,7 +156,7 @@ export class AppComponent implements OnInit {
     if (Math.abs(guessTP-correctTP) <= 2) {
       return {'background': '#D8BC09'}
     }
-    return {}
+    return {'background': 'rgb(66, 66, 66)'}
   }
 
   computePowerShading(guessPowers: number) {
@@ -165,7 +168,7 @@ export class AppComponent implements OnInit {
     if (powerData[Math.max(realRank1-3,0)] <= guessPowers && powerData[Math.min(realRank2+3,50)] >= guessPowers) {
       return {'background': '#D8BC09'}
     }
-    return {}
+    return {'background': 'rgb(66, 66, 66)'}
   }
 
   computeTenShading(guessTens: number) {
@@ -177,7 +180,7 @@ export class AppComponent implements OnInit {
     if (tenData[Math.max(realRank1-3,0)] <= guessTens && tenData[Math.min(realRank2+3,50)] >= guessTens) {
       return {'background': '#D8BC09'}
     }
-    return {}
+    return {'background': 'rgb(66, 66, 66)'}
   }
 
   computeNegShading(guessNegs: number)
@@ -190,7 +193,7 @@ export class AppComponent implements OnInit {
     if (negData[Math.max(realRank1-3,0)] <= guessNegs && negData[Math.min(realRank2+3,50)] >= guessNegs) {
       return {'background': '#D8BC09'}
     }
-    return {}
+    return {'background': 'rgb(66, 66, 66)'}
   }
 
   computePPGShading(guessPPG: number) 
@@ -202,7 +205,7 @@ export class AppComponent implements OnInit {
     if (Math.abs(guessPPG-correctPPG) <= 5) {
       return {'background': '#D8BC09'}
     }
-    return {}
+    return {'background': 'rgb(66, 66, 66)'}
   }
 
   dirYear(guessYear: number) {
@@ -266,7 +269,8 @@ export class AppComponent implements OnInit {
   }
   private getDailyAnswer() {
     var seedrandom = require('seedrandom')
-    var dailyrng = seedrandom((new Date()).toISOString().substring(0, 10) + "%")
+    let date = new Date()
+    var dailyrng = seedrandom(date.toISOString().substring(0, 10) + "%")
     // let prevNames = fs.readFileSync('names.txt').toString()
     // console.log(prevNames)
     let index = Math.floor(dailyrng()*51)
@@ -282,5 +286,35 @@ export class AppComponent implements OnInit {
     const url = document.getElementById("URL") as HTMLAnchorElement | null;
     url!.href = "https://www.naqt.com/stats/player/index.jsp?contact_id=" + this.id
     return {color: '#303030'}
+  }
+
+  copyClicked() {
+    let colors = {"green": "🟩", "#D8BC09": "🟨", "rgb(66, 66, 66)": "⬛"}
+    let counter = 0
+    this.rowColors = this.rowColors + "Solondle #" + this.computeNumber() + "\n"
+    for (var row of this.guessedRows) {
+      this.rowColors = this.rowColors + colors[this.computeYearShading(row.end_year)['background'] as keyof typeof colors]
+      this.rowColors = this.rowColors + colors[this.computeTournamentShading(row.tournaments_played)['background'] as keyof typeof colors]
+      this.rowColors = this.rowColors + colors[this.computePowerShading(row.powers)['background'] as keyof typeof colors]
+      this.rowColors = this.rowColors + colors[this.computeTenShading(row.tens)['background'] as keyof typeof colors]
+      this.rowColors = this.rowColors + colors[this.computeNegShading(row.negs)['background'] as keyof typeof colors]
+      this.rowColors = this.rowColors + colors[this.computePPGShading(row.ppg)['background'] as keyof typeof colors]
+      this.rowColors = this.rowColors + "\n"
+      counter++
+    }
+    this.rowColors = this.rowColors + counter + " guess"
+    if (counter !== 1) {
+      this.rowColors = this.rowColors + "es"
+    }
+    navigator.clipboard.writeText(this.rowColors)
+    console.log(this.rowColors)
+  }
+
+  computeNumber() {
+    let day1 = new Date(2022, 7, 10)
+    console.log(day1)
+    console.log(new Date())
+    let time = differenceInDays(new Date(), day1)
+    return time
   }
 }
