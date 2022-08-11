@@ -2,6 +2,7 @@ import { Component, OnInit, Output, ViewChild } from '@angular/core';
 import {MatTable} from '@angular/material/table';
 import { MatAutocomplete } from '@angular/material/autocomplete';
 import {FormControl} from '@angular/forms';
+import {MatDialog, MatDialogRef} from '@angular/material/dialog';
 import {Observable} from 'rxjs';
 import {map, startWith} from 'rxjs/operators';
 import qbData from '../data.json';
@@ -30,6 +31,7 @@ export interface QBPlayer {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+  constructor(public dialog: MatDialog) {}
   myControl = new FormControl('');
   title = 'Solondle';
   names: string[] = [];
@@ -307,7 +309,7 @@ export class AppComponent implements OnInit {
       this.rowColors = this.rowColors + "es"
     }
     navigator.clipboard.writeText(this.rowColors)
-    console.log(this.rowColors)
+    this.dialog.open(DialogElementsExampleDialog);
   }
 
   computeNumber() {
@@ -318,3 +320,9 @@ export class AppComponent implements OnInit {
     return time
   }
 }
+
+@Component({
+  selector: 'dialog-elements-example-dialog',
+  templateUrl: 'dialog-elements-example-dialog.html',
+})
+export class DialogElementsExampleDialog {}
