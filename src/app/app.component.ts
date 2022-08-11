@@ -266,10 +266,9 @@ export class AppComponent implements OnInit {
   }
   private getDailyAnswer() {
     var seedrandom = require('seedrandom')
-    var dailyrng = seedrandom((new Date()).toISOString().substring(0, 10))
+    var dailyrng = seedrandom((new Date()).toISOString().substring(0, 10) + "!")
     // let prevNames = fs.readFileSync('names.txt').toString()
     // console.log(prevNames)
-    dailyrng();
     let index = Math.floor(dailyrng()*51)
     let name = qbData[index]["name"] as keyof typeof nameData
     // let index = 33
