@@ -1,0 +1,2591 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>NAQT | Solon High School | Players</title>
+
+		
+
+		<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create', 'UA-246249-2', 'auto');ga('send', 'pageview');</script>
+
+		<script async src="//www.google-analytics.com/analytics.js"></script><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" /><link rel="stylesheet" type="text/css" href="/template/datetimepicker.min.css" />
+
+		<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/v/zf/dt-1.10.18/fc-3.2.5/fh-3.1.4/datatables.min.css" />
+
+		
+
+		<link rel="prefetch" as="font" href="/template/fonts/fjalla-one-v8-latin-ext_latin-regular.woff2" crossorigin="anonymous" />
+
+		<link rel="prefetch" as="font" href="/template/fonts/raleway-v18-latin-ext_latin-regular.woff2" crossorigin="anonymous" />
+
+		<link rel="prefetch" as="font" href="/template/fonts/raleway-v18-latin-ext_latin-italic.woff2" crossorigin="anonymous" />
+
+		<link rel="prefetch" as="font" href="/template/fonts/raleway-v18-latin-ext_latin-300.woff2" crossorigin="anonymous" />
+
+		<link rel="prefetch" as="font" href="/template/fonts/raleway-v18-latin-ext_latin-300italic.woff2" crossorigin="anonymous" />
+
+		<link rel="prefetch" as="font" href="/template/fonts/raleway-v18-latin-ext_latin-500.woff2" crossorigin="anonymous" />
+
+		<link rel="prefetch" as="font" href="/template/fonts/raleway-v18-latin-ext_latin-500italic.woff2" crossorigin="anonymous" />
+
+		<link rel="prefetch" as="font" href="/template/fonts/raleway-v18-latin-ext_latin-600.woff2" crossorigin="anonymous" />
+
+		<link rel="prefetch" as="font" href="/template/fonts/raleway-v18-latin-ext_latin-600italic.woff2" crossorigin="anonymous" />
+
+		<link rel="prefetch" as="font" href="/template/fonts/raleway-v18-latin-ext_latin-700.woff2" crossorigin="anonymous" />
+
+		<link rel="prefetch" as="font" href="/template/fonts/raleway-v18-latin-ext_latin-700italic.woff2" crossorigin="anonymous" />
+
+		<!-- We don't pre-fetch the Merriweather font files because they're used on so few pages -->
+
+		<link rel="stylesheet" type="text/css" href="/template/style.css?date=2022-05-29" /><link rel="shortcut icon" href="/template/images/favicon.ico" />
+
+		<script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
+
+		
+
+		<meta property="og:type" content="website" />
+
+		<meta property="og:title" content="NAQT | Solon High School | Players" />
+
+		<meta property="og:image" content="/images/logo/open-graph.png" /><meta name="description" content="National Academic Quiz Tournaments, LLC, organizes the premier middle school, high school, community college, and college national quiz bowl championships in North America." />
+
+	</head>
+
+<body>
+
+	<header class="top-bar header">
+
+		<div class="row column">
+
+			<div class="top-bar-title">
+
+				<a href="/">
+
+					<img class="brand" src="/template/images/logo.png" alt="NAQT logo">
+
+				</a>
+
+			</div><div class="menu-toggle-buttons">
+
+					<a href="/search.html"><img src="/template/images/searchicon.png" alt="Search" width="45" height="45"></a>
+
+					<a href="#" class="toggle-menu"><img src="/template/images/menuicon.png" alt="Toggle menu" width="45" height="45"></a>
+
+				</div>
+
+				<div class="menu-container">
+
+					<ul class="menu secondary-menu"><li><a href="/ForceLogin?destination=%2Fstats%2Fschool%2Fplayers.jsp%3Forg_id%3D1277">Log In</a></li><li><a href="/account/create/">Create Account</a></li><li><a href="/about/contact.jsp">Contact Us</a></li><li><a href="/search.html" class="search">Search</a></li></ul>
+
+					
+<ul id="mainMenu" class="menu main-menu" data-responsive-menu="drilldown large-dropdown" data-auto-height="true">
+<li><a href="/how-to/start-a-team.jsp">Start a Team</a><ul class="vertical menu unloaded"><li><a href="/ms/">Middle School</a><ul class="vertical menu unloaded"><li><a href="/how-to/start-a-middle-school-team.jsp">Starting a Middle School Team</a></li>
+<li><a href="/ms/new-middle-school-package.html">New Middle School Package</a></li>
+<li><a href="/ms/state-organizations.html">State Organizations</a></li>
+<li><a href="/ms/distribution.jsp">Subject Distribution</a></li>
+</ul>
+</li>
+<li><a href="/hs/">High School</a><ul class="vertical menu unloaded"><li><a href="/how-to/start-a-high-school-team.html">Starting a High School Team</a></li>
+<li><a href="/hs/new-high-school-package.html">New High School Package</a></li>
+<li><a href="/hs/state-organizations.html">State Organizations</a></li>
+<li><a href="/hs/small-school.html">Small Schools</a></li>
+<li><a href="/hs/distribution.jsp">Subject Distribution</a></li>
+<li><a href="/hs/distribution-introductory.jsp">Introductory Subject Distribution</a></li>
+</ul>
+</li>
+<li><a href="/cc/">Community College</a><ul class="vertical menu unloaded"><li><a href="/how-to/start-a-college-team.html">Starting a Community College Team</a></li>
+<li><a href="/cc/new-cc-package.html">New Community College Package</a></li>
+<li><a href="/cc/distribution.jsp">Subject Distribution</a></li>
+<li><a href="/college/collegiate-novice-series.html">Collegiate Novice Tournaments</a></li>
+</ul>
+</li>
+<li><a href="/college/">College</a><ul class="vertical menu unloaded"><li><a href="/how-to/start-a-college-team.html">Starting a College Team</a></li>
+<li><a href="/college/rising-freshmen/">Rising Freshmen</a></li>
+<li><a href="/college/intramural.html">Intramural Tournaments</a></li>
+<li><a href="/college/new-college-package.html">New College Package</a></li>
+<li><a href="/college/collegiate-novice-series.html">Collegiate Novice Tournaments</a></li>
+<li><a href="/college/division-i.html">Division I</a></li>
+<li><a href="/college/undergraduate.html">Undergraduate</a></li>
+<li><a href="/college/division-ii.html">Division II</a></li>
+<li><a href="/college/distribution.jsp">Subject Distribution</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="/order/">Practice & Learn</a><ul class="vertical menu unloaded"><li><a href="/how-to/">How-To Guides</a></li>
+<li><a href="/samples/">Sample Questions</a></li>
+<li><a href="/order/">Order Practice Material</a><ul class="vertical menu unloaded"><li><a href="/order/">Order Practice Material</a></li>
+<li><a href="/locklizard/">Locklizard Secure Delivery</a></li>
+<li><a href="/locklizard/instructions.jsp">Locklizard Requirements and Setup Guide</a></li>
+<li><a href="/locklizard/create-account.jsp">Create a Locklizard Account</a></li>
+<li><a href="/locklizard/test.jsp">Test Documents</a></li>
+</ul>
+</li>
+<li><a href="/library/">My Study Library</a><ul class="vertical menu unloaded"><li><a href="/library/about.jsp">About</a></li>
+<li><a href="/library/expected-content.jsp">Expected Contents</a></li>
+</ul>
+</li>
+<li><a href="/buzzword/practice.jsp">Practice Buzzword</a></li>
+<li><a href="/study-guides/">Study Guides</a><ul class="vertical menu unloaded"><li><a href="/frequency-lists/">Frequency Lists</a></li>
+<li><a href="/power-up/">Power Up</a><ul class="vertical menu unloaded"><li><a href="/power-up/american-poetry/">American Poetry</a></li>
+<li><a href="/power-up/chinese-history/">Chinese History</a></li>
+<li><a href="/power-up/earth-science/">Earth Science</a></li>
+<li><a href="/power-up/italian-renaissance-painting/">Italian Renaissance Painting</a></li>
+<li><a href="/power-up/modern-classical-music/">Modern Classical Music</a></li>
+<li><a href="/power-up/psychology-and-linguistics/">Psychology & Linguistics</a></li>
+</ul>
+</li>
+<li><a href="/thumbs-up/">Thumbs Up!</a></li>
+</ul>
+</li>
+<li><a href="/resources/">Resources</a><ul class="vertical menu unloaded"><li><a href="/downloads/">Downloads</a></li>
+<li><a href="/resources/team-development.html">Team Development</a></li>
+<li><a href="/resources/hosting.html">Hosting Tournaments</a></li>
+<li><a href="/resources/references/">Reference Materials</a></li>
+<li><a href="/resources/question-writing.html">Question Writing</a></li>
+<li><a href="/resources/forums.html">Discussion Forums</a></li>
+<li><a href="/resources/organizations.html">Other Organizations</a></li>
+</ul>
+</li>
+<li><a href="/how-to/improve-as-a-player.html">Improving as a Player</a></li>
+<li><a href="/you-gotta-know/">You Gotta Know�</a><ul class="vertical menu unloaded"><li><a href="/you-gotta-know/">Latest Articles</a></li>
+<li><a href="/you-gotta-know/by-category.jsp">By Category</a></li>
+<li><a href="/you-gotta-know/dwarf-planets-comets-and-asteroids.html">Dwarf Planets, Comets, and Asteroids</a></li>
+<li><a href="/you-gotta-know/silent-films.html">Silent Films</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="/schedule/">Tournaments</a><ul class="vertical menu unloaded"><li><a href="/schedule/">Schedule of Events</a></li>
+<li><a href="/buzzword/">Buzzword</a><ul class="vertical menu unloaded"><li><a href="/buzzword/intro.jsp">Introduction</a></li>
+<li><a href="/buzzword/play/sample-game.jsp">Sample Game</a></li>
+<li><a href="/buzzword/results/">Results</a></li>
+<li><a href="/buzzword/leagues.jsp">Leagues</a><ul class="vertical menu unloaded"><li><a href="/buzzword/leagues/browse.jsp">Browse Leagues</a></li>
+</ul>
+</li>
+<li><a href="/buzzword/coach/">Coach Tools</a><ul class="vertical menu unloaded"><li><a href="/buzzword/coach/players.jsp">Players</a></li>
+<li><a href="/buzzword/coach/participation.jsp">Participation</a></li>
+<li><a href="/buzzword/coach/register.jsp">Register Your Players</a></li>
+</ul>
+</li>
+<li><a href="/buzzword/options.jsp">Options</a></li>
+<li><a href="/buzzword/faq.jsp">Frequently Asked Questions</a></li>
+<li><a href="/buzzword/rules.html">Rules</a><ul class="vertical menu unloaded"><li><a href="/buzzword/judging.jsp">Answer-Judging and Protests</a></li>
+<li><a href="/buzzword/eligibility.jsp">Eligibility</a></li>
+</ul>
+</li>
+<li><a href="/buzzword/results/awards-explanation.jsp">Awards</a></li>
+<li><a href="#">Announcements & Articles</a><ul class="vertical menu unloaded"><li><a href="/buzzword/announcements/2020-07-judging-process.jsp">The Judging Process</a></li>
+</ul>
+</li>
+<li><a href="/buzzword/practice.jsp">Practice Buzzword</a></li>
+</ul>
+</li>
+<li><a href="/hosting/">Host a Tournament</a><ul class="vertical menu unloaded"><li><a href="/ms/hosting.html">Middle School</a><ul class="vertical menu unloaded"><li><a href="/ms/hosting.html">Hosting Information</a></li>
+<li><a href="/ms/free-questions.html">Free Questions</a></li>
+</ul>
+</li>
+<li><a href="/hs/hosting.html">High School</a><ul class="vertical menu unloaded"><li><a href="/hs/hosting.html">Hosting Information</a></li>
+<li><a href="/hs/free-questions.html">Free Questions</a></li>
+<li><a href="/hs/geographic-exclusivity.html">Geographic Exclusivity</a></li>
+</ul>
+</li>
+<li><a href="/cc/hosting.html">Community College</a></li>
+<li><a href="/college/hosting.html">College</a></li>
+<li><a href="/hosting/propose-tournament.jsp">Request a Question Set</a></li>
+</ul>
+</li>
+<li><a href="/online/">Online Tournament Guide</a><ul class="vertical menu unloaded"><li><a href="/online/index.jsp">Introduction</a></li>
+<li><a href="/online/essentials.jsp">Essentials</a></li>
+<li><a href="/online/overview.jsp">Overview</a></li>
+<li><a href="/online/roles.jsp">Roles</a><ul class="vertical menu unloaded"><li><a href="/online/player.jsp">Player</a></li>
+<li><a href="/online/parent.jsp">Parent</a></li>
+<li><a href="/online/coach.jsp">Coach/Chaperone</a></li>
+<li><a href="/online/spectator.jsp">Spectator</a></li>
+<li><a href="/online/moderator.jsp">Moderator</a></li>
+<li><a href="/online/scorekeeper.jsp">Scorekeeper</a></li>
+<li><a href="/online/td-basics.jsp">Tournament Director</a><ul class="vertical menu unloaded"><li><a href="/online/requirements.jsp">Requirements</a></li>
+<li><a href="/online/preparations.jsp">Preparations</a></li>
+<li><a href="/online/announcement.jsp">Announcement</a></li>
+<li><a href="/online/zoom.jsp">Zoom</a></li>
+<li><a href="/online/day-of.jsp">Day Of</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="/online/buzzin.jsp">BuzzIn.Live</a></li>
+<li><a href="/online/online-rules.jsp">Online Rules</a><ul class="vertical menu unloaded"><li><a href="/online/technical-problems.jsp">Technical Problems</a></li>
+<li><a href="/online/suggestions.jsp">Suggestions</a></li>
+<li><a href="/online/cheating.jsp">Cheating</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="/hosting/online.jsp">Online Quiz Bowl Tournaments</a></li>
+<li><a href="/stats/tournament/">Results</a><ul class="vertical menu unloaded"><li><a href="/stats/tournament/">This Year</a></li>
+<li><a href="/stats/school/search.jsp">By School</a></li>
+<li><a href="/stats/player/search.jsp">By Player</a></li>
+<li><a href="#">By Packet Set</a><ul class="vertical menu unloaded"><li><a href="/stats/packet-set/team.jsp">For Teams</a></li>
+<li><a href="/stats/packet-set/player.jsp">For Players</a></li>
+</ul>
+</li>
+<li><a href="/stats/explanation.jsp">Explanation of Statistics</a></li>
+<li><a href="/stats/reporting-results.jsp">How to Report Results</a></li>
+<li><a href="/stats/using-sqbs.html">Using SQBS</a></li>
+</ul>
+</li>
+<li><a href="/stats/records/">Records</a><ul class="vertical menu unloaded"><li><a href="/stats/records/school.jsp">School</a></li>
+<li><a href="/stats/records/team.jsp">Team</a></li>
+<li><a href="/stats/records/individual.jsp">Individual</a></li>
+</ul>
+</li>
+<li><a href="/sct/">College Sectionals</a><ul class="vertical menu unloaded"><li><a href="/sct/">Four-Year College SCTs</a><ul class="vertical menu unloaded"><li><a href="/sct/hosts.jsp">Hosts</a></li>
+<li><a href="/sct/automatic-bid.html">Automatic Bids</a></li>
+<li><a href="/sct/approved-formats.jsp">Approved Formats</a></li>
+<li><a href="/sct/2022/online.jsp">2022 Online SCT</a></li>
+</ul>
+</li>
+<li><a href="/cc/cc-sct/">Community College SCTs</a><ul class="vertical menu unloaded"><li><a href="/cc/cc-sct/2022-online.jsp">2022 Online CC SCT</a></li>
+<li><a href="/cc/cc-sct/propose.jsp">Propose Hosting a CC SCT</a></li>
+<li><a href="/cc/cc-sct/approved-formats.jsp">Approved Formats</a></li>
+</ul>
+</li>
+<li><a href="/stats/sectionals.jsp">Results</a></li>
+<li><a href="/sct/guest-editor.jsp">Guest Editors</a></li>
+<li><a href="/stats/rating-values.jsp">D-Values</a></li>
+<li><a href="/college/d-values.html">About D-Values</a></li>
+</ul>
+</li>
+<li><a href="/tournament/">Gameplay Schedules</a></li>
+<li><a href="/hosting/security-responsibility.html">Security Responsibility</a></li>
+</ul>
+</li>
+<li><a href="/nationals/">National Championships</a><ul class="vertical menu unloaded"><li><a href="/nationals/">Overview</a></li>
+<li><a href="/nationals/faq.jsp">Frequently Asked Questions</a></li>
+<li><a href="/nationals/press-guide.jsp">Press Guide</a></li>
+<li><a href="/nationals/future-championships.jsp">Future Dates & Sites</a></li>
+<li><a href="/msnct/">Middle School (MSNCT)</a><ul class="vertical menu unloaded"><li><a href="/msnct/">About</a></li>
+<li><a href="/msnct/qualification.jsp">Qualification</a></li>
+<li><a href="/stats/tournament/standings.jsp?tournament_id=12400">2022 Results</a></li>
+<li><a href="/msnct/past-winners.jsp">Past Winners</a></li>
+<li><a href="/msnct/distribution.jsp">Subject Distribution</a></li>
+<li><a href="/msnct/standby.jsp">Standby Teams</a></li>
+</ul>
+</li>
+<li><a href="/ssnct/">Small High School (SSNCT)</a><ul class="vertical menu unloaded"><li><a href="/ssnct/">About</a></li>
+<li><a href="/ssnct/qualification.jsp">Qualification</a></li>
+<li><a href="/hs/small-school.html">Definition of Small School</a></li>
+<li><a href="/ssnct/2022/">2022 Results</a></li>
+<li><a href="/ssnct/past-winners.jsp">Past Winners</a></li>
+<li><a href="/ssnct/distribution.jsp">Subject Distribution</a></li>
+<li><a href="/ssnct/standby.jsp">Standby Teams</a></li>
+</ul>
+</li>
+<li><a href="/ipnct/">Individual Players (IPNCT)</a><ul class="vertical menu unloaded"><li><a href="/stats/tournament/standings.jsp?tournament_id=12405">2022 Results</a></li>
+<li><a href="/rules/ipnct.html">Rules</a></li>
+</ul>
+</li>
+<li><a href="/hsnct/">High School Overall (HSNCT)</a><ul class="vertical menu unloaded"><li><a href="/hsnct/">About</a></li>
+<li><a href="/hsnct/qualification.jsp">Qualification</a></li>
+<li><a href="/hsnct/2022/">2022 Results</a></li>
+<li><a href="/hsnct/past-winners.jsp">Past Winners</a></li>
+<li><a href="/hsnct/20for20/">20for20 (20th Anniversary)</a></li>
+<li><a href="/hsnct/distribution.jsp">Subject Distribution</a></li>
+<li><a href="/hsnct/standby.jsp">Standby Teams</a></li>
+<li><a href="/hsnct/reserved-berths.jsp">Reserved Berths</a></li>
+</ul>
+</li>
+<li><a href="/ccct/">Community College (CCCT)</a><ul class="vertical menu unloaded"><li><a href="/ccct/">About</a></li>
+<li><a href="/ccct/qualification.jsp">Qualification</a></li>
+<li><a href="/ccct/2022/">2022 Results</a></li>
+<li><a href="/ccct/past-winners.jsp">Past Winners</a></li>
+<li><a href="/college/distribution.jsp">Subject Distribution</a></li>
+<li><a href="/ccct/standby.jsp">Standby Teams</a></li>
+</ul>
+</li>
+<li><a href="/ict/">Intercollegiate (ICT)</a><ul class="vertical menu unloaded"><li><a href="/ict/">About</a></li>
+<li><a href="/ict/qualification.jsp">Qualification</a></li>
+<li><a href="/ict/2022/">2022 Results</a></li>
+<li><a href="/ict/past-winners.jsp">Past Winners</a></li>
+<li><a href="/college/distribution.jsp">Subject Distribution</a></li>
+<li><a href="/ict/standby.jsp">Standby Teams</a></li>
+</ul>
+</li>
+<li><a href="/nationals/online-integrity/">Integrity Policy for Online National Championships</a></li>
+<li><a href="/nationals/hall-of-champions.jsp">Hall of Champions</a></li>
+<li><a href="/podcasts/">Podcasts</a></li>
+<li><a href="/nationals/wildcard-application-information.jsp">Requesting Wildcards</a></li>
+<li><a href="/nationals/advocate-program.jsp">Advocate Program</a><ul class="vertical menu unloaded"><li><a href="/nationals/reporting-misconduct.jsp">Reporting Misconduct</a></li>
+</ul>
+</li>
+<li><a href="/nationals/2022-vaccination-policy.jsp">Vaccination Policy</a></li>
+</ul>
+</li>
+<li><a href="/about/">About NAQT</a><ul class="vertical menu unloaded"><li><a href="/about/">About NAQT</a></li>
+<li><a href="/about/quiz-bowl.html">About Quiz Bowl</a></li>
+<li><a href="/about/contact.jsp">Contact Us</a></li>
+<li><a href="/rules/">Official Rules</a><ul class="vertical menu unloaded"><li><a href="/rules/">Gameplay Rules</a></li>
+<li><a href="/rules/correctness-guidelines.html">Correctness Guidelines</a></li>
+<li><a href="/rules/ipnct.html">IPNCT Gameplay Rules</a></li>
+<li><a href="/rules/eligibility.html">Eligibility</a><ul class="vertical menu unloaded"><li><a href="/ms/eligibility.html">Middle School</a></li>
+<li><a href="/hs/eligibility.html">High School</a></li>
+<li><a href="/hs/small-school.html">Small High School</a></li>
+<li><a href="/cc/eligibility.html">Community College</a></li>
+<li><a href="/college/eligibility.html">Four-Year College</a></li>
+<li><a href="/college/eligibility-faq.html">College Eligibility FAQ</a></li>
+<li><a href="/hosting/ineligible-teams.html">Ineligible Teams at Regular-Season Tournaments</a></li>
+</ul>
+</li>
+<li><a href="#">Policies</a><ul class="vertical menu unloaded"><li><a href="/hosting/security-responsibility.html">Security Responsibility</a></li>
+<li><a href="/rules/licensing-policy.html">Licensing</a></li>
+<li><a href="/hosting/pseudonym-policy.jsp">Team Pseudonyms</a></li>
+<li><a href="/nationals/tournament-format-special-cases.html">Format Special Cases</a></li>
+<li><a href="/hosting/tiebreaker-policy.html">Tiebreakers</a></li>
+<li><a href="/hosting/elimination-policy.html">Elimination</a></li>
+<li><a href="/nationals/buzzer-discount-policy.html">Buzzer Discount Policy</a></li>
+<li><a href="/nationals/side-event-policy.html">Side Events at National Championships</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="/about/members.jsp">Member Biographies</a><ul class="vertical menu unloaded"><li><a href="/about/members.jsp">Current Members</a></li>
+<li><a href="/about/members-emeriti.html">Members Emeriti</a></li>
+<li><a href="/about/former-members.html">Former Members</a></li>
+</ul>
+</li>
+<li><a href="/jobs/">Quiz Bowl Jobs</a></li>
+<li><a href="/about/terms-of-use.jsp">Terms of Use</a></li>
+<li><a href="/about/privacy-policy.jsp">Privacy Policy</a></li>
+</ul>
+</li>
+</ul>
+
+
+				</div></div>
+
+	</header>
+
+	
+
+	<div class="main-container row column">
+
+		<ul class="breadcrumbs hide-for-print">
+	<li class="ancestor"><a href="/schedule/?org_id=1277">Tournaments</a></li>
+	<li class="ancestor"><a href="/stats/tournament/?org_id=1277">Results</a></li>
+	<li class="ancestor"><a href="/stats/school/search.jsp?org_id=1277">Solon</a></li>
+	<li class="current"><span class="show-for-sr">Current:</span> Players</li>
+</ul>
+
+
+		<h1>Solon High School</h1>
+
+		
+
+
+	
+	<nav class="expanded button-group button-menu ">
+	<a title="Basic Information" href="/stats/school/index.jsp?org_id=1277" class="stealth-tooltip button inactive">Basic Information</a>
+
+	<a title="Results" href="/stats/school/results.jsp?org_id=1277" class="stealth-tooltip button inactive">Results</a>
+
+	<a title="Players" href="/stats/school/players.jsp?org_id=1277" class="stealth-tooltip button active">Players</a>
+
+	<a title="Hosted &amp;amp; Sponsored Events" href="/stats/school/hosted.jsp?org_id=1277" class="stealth-tooltip button inactive">Hosted &amp; Sponsored Events</a>
+
+</nav>
+
+	
+	<section id="players"><table class="data-freeze-1"><thead>
+					<tr>
+						<th>Player</th>
+						<th>Years</th>
+						<th class="numeric" title="Tournaments played">T</th>
+						<th class="numeric" title="Games played">GP</th>
+						<th class="numeric" title="Tossups heard">TUH</th>
+						<th class="numeric" title="Points">Pts</th>
+						<th class="numeric" title="Powers">P</th>
+						<th class="numeric" title="Regular tossups">TU</th>
+						<th class="numeric" title="Interrupts">I</th>
+						<th class="numeric" title="Power percentage">P%</th>
+						<th class="numeric" title="Points per 20 tossups heard">PP20TH</th></tr>
+				</thead>
+				<tbody><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=80083">Rohan Achar</a></th>
+							<td>2010 &ndash; 2013</td>
+							<td class="numeric">15</td>
+							<td class="numeric">150</td>
+							<td class="numeric">2967</td>
+							<td class="numeric">5835</td>
+							<td class="numeric">191</td>
+							<td class="numeric">344</td>
+							<td class="numeric">94</td>
+							<td class="numeric" data-order="0.35700934579439253">35.7%</td>
+							<td class="numeric">39.33</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=36625">Asheq Ahmed</a></th>
+							<td>2006 &ndash; 2010</td>
+							<td class="numeric">1</td>
+							<td class="numeric">5</td>
+							<td class="numeric">72</td>
+							<td class="numeric">-5</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric">1</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">-1.39</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=381158">Liisa Ahnall</a></th>
+							<td>2002 &ndash; 2003</td>
+							<td class="numeric">1</td>
+							<td class="numeric">10</td>
+							<td class="numeric">223</td>
+							<td class="numeric">155</td>
+							<td class="numeric">1</td>
+							<td class="numeric">15</td>
+							<td class="numeric">2</td>
+							<td class="numeric" data-order="0.0625">6.2%</td>
+							<td class="numeric">13.90</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=402148">Jay Akkul</a></th>
+							<td>2017 &ndash; 2019</td>
+							<td class="numeric">4</td>
+							<td class="numeric">35</td>
+							<td class="numeric">694</td>
+							<td class="numeric">660</td>
+							<td class="numeric">19</td>
+							<td class="numeric">47</td>
+							<td class="numeric">19</td>
+							<td class="numeric" data-order="0.2878787878787879">28.8%</td>
+							<td class="numeric">19.02</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=396788">Jaron Ashton</a></th>
+							<td>2016 &ndash; 2019</td>
+							<td class="numeric">7</td>
+							<td class="numeric">50</td>
+							<td class="numeric">925</td>
+							<td class="numeric">970</td>
+							<td class="numeric">28</td>
+							<td class="numeric">63</td>
+							<td class="numeric">16</td>
+							<td class="numeric" data-order="0.3076923076923077">30.8%</td>
+							<td class="numeric">20.97</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=406713">Mairi Ashton</a></th>
+							<td>2017 &ndash; 2018</td>
+							<td class="numeric">1</td>
+							<td class="numeric">10</td>
+							<td class="numeric">200</td>
+							<td class="numeric">60</td>
+							<td class="numeric">4</td>
+							<td class="numeric">1</td>
+							<td class="numeric">2</td>
+							<td class="numeric" data-order="0.8">80.0%</td>
+							<td class="numeric">6.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=110190">Monika Bandi</a></th>
+							<td>2011 &ndash; 2015</td>
+							<td class="numeric">2</td>
+							<td class="numeric">14</td>
+							<td class="numeric">280</td>
+							<td class="numeric">50</td>
+							<td class="numeric">0</td>
+							<td class="numeric">5</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">3.57</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=429004">Anant Batchu</a></th>
+							<td>2019 &ndash; 2020</td>
+							<td class="numeric">1</td>
+							<td class="numeric">10</td>
+							<td class="numeric">200</td>
+							<td class="numeric">175</td>
+							<td class="numeric">7</td>
+							<td class="numeric">10</td>
+							<td class="numeric">6</td>
+							<td class="numeric" data-order="0.4117647058823529">41.2%</td>
+							<td class="numeric">17.50</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=190544">Divya Batchu</a></th>
+							<td>2015 &ndash; 2016</td>
+							<td class="numeric">1</td>
+							<td class="numeric">10</td>
+							<td class="numeric">200</td>
+							<td class="numeric">70</td>
+							<td class="numeric">2</td>
+							<td class="numeric">7</td>
+							<td class="numeric">6</td>
+							<td class="numeric" data-order="0.2222222222222222">22.2%</td>
+							<td class="numeric">7.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=380871">Ted Bedell</a></th>
+							<td>2003 &ndash; 2004</td>
+							<td class="numeric">1</td>
+							<td class="numeric">2</td>
+							<td class="numeric">24</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">0.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=190598">Pranit Behara</a></th>
+							<td>2015 &ndash; 2019</td>
+							<td class="numeric">25</td>
+							<td class="numeric">247</td>
+							<td class="numeric">4880</td>
+							<td class="numeric">4895</td>
+							<td class="numeric">210</td>
+							<td class="numeric">227</td>
+							<td class="numeric">105</td>
+							<td class="numeric" data-order="0.4805491990846682">48.1%</td>
+							<td class="numeric">20.06</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=381159">Peter Bevan</a></th>
+							<td>2002 &ndash; 2003</td>
+							<td class="numeric">1</td>
+							<td class="numeric">10</td>
+							<td class="numeric">212</td>
+							<td class="numeric">70</td>
+							<td class="numeric">0</td>
+							<td class="numeric">8</td>
+							<td class="numeric">2</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">6.60</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=503190">Kartik Bhat</a></th>
+							<td>2021 &ndash; 2022</td>
+							<td class="numeric">4</td>
+							<td class="numeric">33</td>
+							<td class="numeric">659</td>
+							<td class="numeric">700</td>
+							<td class="numeric">14</td>
+							<td class="numeric">57</td>
+							<td class="numeric">16</td>
+							<td class="numeric" data-order="0.19718309859154928">19.7%</td>
+							<td class="numeric">21.24</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=116420">Austin Bolomey</a></th>
+							<td>2012 &ndash; 2013</td>
+							<td class="numeric">2</td>
+							<td class="numeric">9</td>
+							<td class="numeric">180</td>
+							<td class="numeric">190</td>
+							<td class="numeric">0</td>
+							<td class="numeric">21</td>
+							<td class="numeric">4</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">21.11</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=40879">Aleksey Boystov</a></th>
+							<td>2004 &ndash; 2008</td>
+							<td class="numeric">2</td>
+							<td class="numeric">16</td>
+							<td class="numeric">283</td>
+							<td class="numeric">230</td>
+							<td class="numeric">6</td>
+							<td class="numeric">17</td>
+							<td class="numeric">6</td>
+							<td class="numeric" data-order="0.2608695652173913">26.1%</td>
+							<td class="numeric">16.25</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=63678">Anh Bui</a></th>
+							<td>2005 &ndash; 2006</td>
+							<td class="numeric">1</td>
+							<td class="numeric">5</td>
+							<td class="numeric">100</td>
+							<td class="numeric">40</td>
+							<td class="numeric">0</td>
+							<td class="numeric">4</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">8.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=429019">Shayak Chakrabarti</a></th>
+							<td>2018 &ndash; 2022</td>
+							<td class="numeric">27</td>
+							<td class="numeric">241</td>
+							<td class="numeric">4738</td>
+							<td class="numeric">7720</td>
+							<td class="numeric">329</td>
+							<td class="numeric">315</td>
+							<td class="numeric">73</td>
+							<td class="numeric" data-order="0.5108695652173914">51.1%</td>
+							<td class="numeric">32.59</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=198963">Todd Cheng</a></th>
+							<td>2015 &ndash; 2017</td>
+							<td class="numeric">8</td>
+							<td class="numeric">60</td>
+							<td class="numeric">1161</td>
+							<td class="numeric">840</td>
+							<td class="numeric">31</td>
+							<td class="numeric">49</td>
+							<td class="numeric">23</td>
+							<td class="numeric" data-order="0.3875">38.8%</td>
+							<td class="numeric">14.47</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=41164">Dima Chernyak</a></th>
+							<td>2004 &ndash; 2008</td>
+							<td class="numeric">3</td>
+							<td class="numeric">33</td>
+							<td class="numeric">692</td>
+							<td class="numeric">1175</td>
+							<td class="numeric">10</td>
+							<td class="numeric">110</td>
+							<td class="numeric">15</td>
+							<td class="numeric" data-order="0.08333333333333333">8.3%</td>
+							<td class="numeric">33.96</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=116416">Alark Choudhary</a></th>
+							<td>2012 &ndash; 2013</td>
+							<td class="numeric">3</td>
+							<td class="numeric">22</td>
+							<td class="numeric">375</td>
+							<td class="numeric">85</td>
+							<td class="numeric">1</td>
+							<td class="numeric">7</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.125">12.5%</td>
+							<td class="numeric">4.53</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=31294">Justin Chung</a></th>
+							<td>2003 &ndash; 2004</td>
+							<td class="numeric">1</td>
+							<td class="numeric">10</td>
+							<td class="numeric">211</td>
+							<td class="numeric">40</td>
+							<td class="numeric">0</td>
+							<td class="numeric">4</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">3.79</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=429018">Aidan Cullers</a></th>
+							<td>2018 &ndash; 2020</td>
+							<td class="numeric">5</td>
+							<td class="numeric">40</td>
+							<td class="numeric">755</td>
+							<td class="numeric">915</td>
+							<td class="numeric">11</td>
+							<td class="numeric">87</td>
+							<td class="numeric">24</td>
+							<td class="numeric" data-order="0.11224489795918367">11.2%</td>
+							<td class="numeric">24.24</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=57435">Alex D.</a></th>
+							<td>2006 &ndash; 2009</td>
+							<td class="numeric">2</td>
+							<td class="numeric">12</td>
+							<td class="numeric">190</td>
+							<td class="numeric">65</td>
+							<td class="numeric">0</td>
+							<td class="numeric">7</td>
+							<td class="numeric">1</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">6.84</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=190546">Shyon Deshpande</a></th>
+							<td>2015 &ndash; 2016</td>
+							<td class="numeric">1</td>
+							<td class="numeric">10</td>
+							<td class="numeric">200</td>
+							<td class="numeric">95</td>
+							<td class="numeric">1</td>
+							<td class="numeric">9</td>
+							<td class="numeric">2</td>
+							<td class="numeric" data-order="0.1">10.0%</td>
+							<td class="numeric">9.50</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=386">Rohin Devanathan</a></th>
+							<td>2012 &ndash; 2016</td>
+							<td class="numeric">24</td>
+							<td class="numeric">256</td>
+							<td class="numeric">5296</td>
+							<td class="numeric">21265</td>
+							<td class="numeric">1011</td>
+							<td class="numeric">807</td>
+							<td class="numeric">394</td>
+							<td class="numeric" data-order="0.5561056105610561">55.6%</td>
+							<td class="numeric">80.31</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=444042">Nikki Dhage</a></th>
+							<td>2018 &ndash; 2019</td>
+							<td class="numeric">7</td>
+							<td class="numeric">61</td>
+							<td class="numeric">1037</td>
+							<td class="numeric">1390</td>
+							<td class="numeric">17</td>
+							<td class="numeric">116</td>
+							<td class="numeric">5</td>
+							<td class="numeric" data-order="0.12781954887218044">12.8%</td>
+							<td class="numeric">26.81</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=23935">Jason Dickman</a></th>
+							<td>2002 &ndash; 2005</td>
+							<td class="numeric">4</td>
+							<td class="numeric">30</td>
+							<td class="numeric">636</td>
+							<td class="numeric">305</td>
+							<td class="numeric">7</td>
+							<td class="numeric">26</td>
+							<td class="numeric">12</td>
+							<td class="numeric" data-order="0.21212121212121213">21.2%</td>
+							<td class="numeric">9.59</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=63679">Kathy Ding</a></th>
+							<td>2005 &ndash; 2006</td>
+							<td class="numeric">1</td>
+							<td class="numeric">5</td>
+							<td class="numeric">100</td>
+							<td class="numeric">15</td>
+							<td class="numeric">0</td>
+							<td class="numeric">2</td>
+							<td class="numeric">1</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">3.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=445547">Ethan Dobres</a></th>
+							<td>2018 &ndash; 2022</td>
+							<td class="numeric">9</td>
+							<td class="numeric">78</td>
+							<td class="numeric">1504</td>
+							<td class="numeric">2560</td>
+							<td class="numeric">91</td>
+							<td class="numeric">138</td>
+							<td class="numeric">37</td>
+							<td class="numeric" data-order="0.39737991266375544">39.7%</td>
+							<td class="numeric">34.04</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=535573">Rishi Doddi</a></th>
+							<td>2021 &ndash; 2022</td>
+							<td class="numeric">1</td>
+							<td class="numeric">10</td>
+							<td class="numeric">200</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">0.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=190609">Franklin Dong</a></th>
+							<td>2015 &ndash; 2016</td>
+							<td class="numeric">1</td>
+							<td class="numeric">7</td>
+							<td class="numeric">120</td>
+							<td class="numeric">10</td>
+							<td class="numeric">0</td>
+							<td class="numeric">2</td>
+							<td class="numeric">2</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">1.67</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=116394">Lucy Dong</a></th>
+							<td>2012 &ndash; 2013</td>
+							<td class="numeric">1</td>
+							<td class="numeric">4</td>
+							<td class="numeric">80</td>
+							<td class="numeric">40</td>
+							<td class="numeric">0</td>
+							<td class="numeric">4</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">10.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=40876">Rui Dong</a></th>
+							<td>2006 &ndash; 2007</td>
+							<td class="numeric">2</td>
+							<td class="numeric">20</td>
+							<td class="numeric">455</td>
+							<td class="numeric">395</td>
+							<td class="numeric">7</td>
+							<td class="numeric">34</td>
+							<td class="numeric">10</td>
+							<td class="numeric" data-order="0.17073170731707318">17.1%</td>
+							<td class="numeric">17.36</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=465846">Sarah Dong</a></th>
+							<td>2020 &ndash; 2022</td>
+							<td class="numeric">7</td>
+							<td class="numeric">64</td>
+							<td class="numeric">1149</td>
+							<td class="numeric">1405</td>
+							<td class="numeric">31</td>
+							<td class="numeric">99</td>
+							<td class="numeric">10</td>
+							<td class="numeric" data-order="0.23846153846153847">23.8%</td>
+							<td class="numeric">24.46</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=76219">Jimmy Du</a></th>
+							<td>2009 &ndash; 2011</td>
+							<td class="numeric">4</td>
+							<td class="numeric">38</td>
+							<td class="numeric">799</td>
+							<td class="numeric">345</td>
+							<td class="numeric">10</td>
+							<td class="numeric">25</td>
+							<td class="numeric">11</td>
+							<td class="numeric" data-order="0.2857142857142857">28.6%</td>
+							<td class="numeric">8.64</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=116417">Kevin Du</a></th>
+							<td>2012 &ndash; 2013</td>
+							<td class="numeric">1</td>
+							<td class="numeric">4</td>
+							<td class="numeric">80</td>
+							<td class="numeric">15</td>
+							<td class="numeric">1</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="1.0">100.0%</td>
+							<td class="numeric">3.75</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=176514">David Eder</a></th>
+							<td>2014 &ndash; 2016</td>
+							<td class="numeric">4</td>
+							<td class="numeric">28</td>
+							<td class="numeric">560</td>
+							<td class="numeric">320</td>
+							<td class="numeric">7</td>
+							<td class="numeric">23</td>
+							<td class="numeric">3</td>
+							<td class="numeric" data-order="0.23333333333333334">23.3%</td>
+							<td class="numeric">11.43</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=389338">Evgenia Evdokimenko</a></th>
+							<td>2018 &ndash; 2019</td>
+							<td class="numeric">2</td>
+							<td class="numeric">18</td>
+							<td class="numeric">359</td>
+							<td class="numeric">215</td>
+							<td class="numeric">2</td>
+							<td class="numeric">19</td>
+							<td class="numeric">1</td>
+							<td class="numeric" data-order="0.09523809523809523">9.5%</td>
+							<td class="numeric">11.98</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=481555">Ethan Feldman</a></th>
+							<td>2019 &ndash; 2022</td>
+							<td class="numeric">15</td>
+							<td class="numeric">134</td>
+							<td class="numeric">2558</td>
+							<td class="numeric">4295</td>
+							<td class="numeric">160</td>
+							<td class="numeric">225</td>
+							<td class="numeric">71</td>
+							<td class="numeric" data-order="0.4155844155844156">41.6%</td>
+							<td class="numeric">33.58</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=57434">Sean Fischer</a></th>
+							<td>2005 &ndash; 2007</td>
+							<td class="numeric">2</td>
+							<td class="numeric">12</td>
+							<td class="numeric">220</td>
+							<td class="numeric">290</td>
+							<td class="numeric">1</td>
+							<td class="numeric">28</td>
+							<td class="numeric">1</td>
+							<td class="numeric" data-order="0.034482758620689655">3.4%</td>
+							<td class="numeric">26.36</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=57627">Kevin G.</a></th>
+							<td>2004 &ndash; 2006</td>
+							<td class="numeric">2</td>
+							<td class="numeric">10</td>
+							<td class="numeric">200</td>
+							<td class="numeric">85</td>
+							<td class="numeric">1</td>
+							<td class="numeric">7</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.125">12.5%</td>
+							<td class="numeric">8.50</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=36611">Prem Ganeshkumar</a></th>
+							<td>2004 &ndash; 2008</td>
+							<td class="numeric">6</td>
+							<td class="numeric">55</td>
+							<td class="numeric">1166</td>
+							<td class="numeric">1355</td>
+							<td class="numeric">30</td>
+							<td class="numeric">100</td>
+							<td class="numeric">19</td>
+							<td class="numeric" data-order="0.23076923076923078">23.1%</td>
+							<td class="numeric">23.24</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=190536">Sonny Ghosh</a></th>
+							<td>2015 &ndash; 2016</td>
+							<td class="numeric">1</td>
+							<td class="numeric">10</td>
+							<td class="numeric">200</td>
+							<td class="numeric">135</td>
+							<td class="numeric">1</td>
+							<td class="numeric">14</td>
+							<td class="numeric">4</td>
+							<td class="numeric" data-order="0.06666666666666667">6.7%</td>
+							<td class="numeric">13.50</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=190608">Nihal Goli</a></th>
+							<td>2015 &ndash; 2019</td>
+							<td class="numeric">4</td>
+							<td class="numeric">31</td>
+							<td class="numeric">550</td>
+							<td class="numeric">295</td>
+							<td class="numeric">2</td>
+							<td class="numeric">30</td>
+							<td class="numeric">7</td>
+							<td class="numeric" data-order="0.0625">6.2%</td>
+							<td class="numeric">10.73</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=201559">Maria Gonzalez</a></th>
+							<td>2015 &ndash; 2016</td>
+							<td class="numeric">1</td>
+							<td class="numeric">9</td>
+							<td class="numeric">131</td>
+							<td class="numeric">15</td>
+							<td class="numeric">1</td>
+							<td class="numeric">1</td>
+							<td class="numeric">2</td>
+							<td class="numeric" data-order="0.5">50.0%</td>
+							<td class="numeric">2.29</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=36615">Manraj Grewal</a></th>
+							<td>2005 &ndash; 2009</td>
+							<td class="numeric">12</td>
+							<td class="numeric">117</td>
+							<td class="numeric">2414</td>
+							<td class="numeric">3915</td>
+							<td class="numeric">56</td>
+							<td class="numeric">371</td>
+							<td class="numeric">127</td>
+							<td class="numeric" data-order="0.13114754098360656">13.1%</td>
+							<td class="numeric">32.44</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=151761">Daniel Guo</a></th>
+							<td>2013 &ndash; 2016</td>
+							<td class="numeric">12</td>
+							<td class="numeric">118</td>
+							<td class="numeric">2374</td>
+							<td class="numeric">3540</td>
+							<td class="numeric">141</td>
+							<td class="numeric">177</td>
+							<td class="numeric">69</td>
+							<td class="numeric" data-order="0.44339622641509435">44.3%</td>
+							<td class="numeric">29.82</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=533144">Zach Han</a></th>
+							<td>2021 &ndash; 2022</td>
+							<td class="numeric">1</td>
+							<td class="numeric">8</td>
+							<td class="numeric">160</td>
+							<td class="numeric">75</td>
+							<td class="numeric">1</td>
+							<td class="numeric">6</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.14285714285714285">14.3%</td>
+							<td class="numeric">9.38</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=109393">Eileen Huang</a></th>
+							<td>2011 &ndash; 2012</td>
+							<td class="numeric">1</td>
+							<td class="numeric">10</td>
+							<td class="numeric">200</td>
+							<td class="numeric">10</td>
+							<td class="numeric">0</td>
+							<td class="numeric">1</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">1.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=46387">Ethan Huang</a></th>
+							<td>2008 &ndash; 2012</td>
+							<td class="numeric">20</td>
+							<td class="numeric">175</td>
+							<td class="numeric">3401</td>
+							<td class="numeric">4355</td>
+							<td class="numeric">102</td>
+							<td class="numeric">309</td>
+							<td class="numeric">53</td>
+							<td class="numeric" data-order="0.24817518248175183">24.8%</td>
+							<td class="numeric">25.61</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=97138">Jon Huang</a></th>
+							<td>2011 &ndash; 2015</td>
+							<td class="numeric">10</td>
+							<td class="numeric">90</td>
+							<td class="numeric">1809</td>
+							<td class="numeric">1510</td>
+							<td class="numeric">34</td>
+							<td class="numeric">109</td>
+							<td class="numeric">18</td>
+							<td class="numeric" data-order="0.23776223776223776">23.8%</td>
+							<td class="numeric">16.69</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=190610">Timmy Huang</a></th>
+							<td>2015 &ndash; 2019</td>
+							<td class="numeric">28</td>
+							<td class="numeric">282</td>
+							<td class="numeric">5676</td>
+							<td class="numeric">11580</td>
+							<td class="numeric">499</td>
+							<td class="numeric">512</td>
+							<td class="numeric">205</td>
+							<td class="numeric" data-order="0.49357072205736896">49.4%</td>
+							<td class="numeric">40.80</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=209936">Lorena Ianiro</a></th>
+							<td>2015 &ndash; 2019</td>
+							<td class="numeric">14</td>
+							<td class="numeric">122</td>
+							<td class="numeric">2192</td>
+							<td class="numeric">710</td>
+							<td class="numeric">22</td>
+							<td class="numeric">49</td>
+							<td class="numeric">22</td>
+							<td class="numeric" data-order="0.30985915492957744">31.0%</td>
+							<td class="numeric">6.48</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=190535">Milan Jain</a></th>
+							<td>2015 &ndash; 2016</td>
+							<td class="numeric">2</td>
+							<td class="numeric">16</td>
+							<td class="numeric">320</td>
+							<td class="numeric">95</td>
+							<td class="numeric">1</td>
+							<td class="numeric">10</td>
+							<td class="numeric">4</td>
+							<td class="numeric" data-order="0.09090909090909091">9.1%</td>
+							<td class="numeric">5.94</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=402144">Soham Jain</a></th>
+							<td>2017 &ndash; 2018</td>
+							<td class="numeric">7</td>
+							<td class="numeric">68</td>
+							<td class="numeric">1289</td>
+							<td class="numeric">1390</td>
+							<td class="numeric">42</td>
+							<td class="numeric">114</td>
+							<td class="numeric">76</td>
+							<td class="numeric" data-order="0.2692307692307692">26.9%</td>
+							<td class="numeric">21.57</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=407074">Richard Jiang</a></th>
+							<td>2017 &ndash; 2018</td>
+							<td class="numeric">1</td>
+							<td class="numeric">8</td>
+							<td class="numeric">160</td>
+							<td class="numeric">115</td>
+							<td class="numeric">2</td>
+							<td class="numeric">10</td>
+							<td class="numeric">3</td>
+							<td class="numeric" data-order="0.16666666666666666">16.7%</td>
+							<td class="numeric">14.38</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=34937">Ahmil Jilani</a></th>
+							<td>2003 &ndash; 2005</td>
+							<td class="numeric">2</td>
+							<td class="numeric">4</td>
+							<td class="numeric">46</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">0.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=55775">Kevin Jin</a></th>
+							<td>2008 &ndash; 2010</td>
+							<td class="numeric">4</td>
+							<td class="numeric">33</td>
+							<td class="numeric">628</td>
+							<td class="numeric">230</td>
+							<td class="numeric">1</td>
+							<td class="numeric">22</td>
+							<td class="numeric">1</td>
+							<td class="numeric" data-order="0.043478260869565216">4.3%</td>
+							<td class="numeric">7.32</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=220541">Timothy Jin</a></th>
+							<td>2015 &ndash; 2017</td>
+							<td class="numeric">8</td>
+							<td class="numeric">70</td>
+							<td class="numeric">1437</td>
+							<td class="numeric">1915</td>
+							<td class="numeric">44</td>
+							<td class="numeric">132</td>
+							<td class="numeric">13</td>
+							<td class="numeric" data-order="0.25">25.0%</td>
+							<td class="numeric">26.65</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=406712">Steve Johnson</a></th>
+							<td>2017 &ndash; 2018</td>
+							<td class="numeric">3</td>
+							<td class="numeric">28</td>
+							<td class="numeric">560</td>
+							<td class="numeric">360</td>
+							<td class="numeric">5</td>
+							<td class="numeric">34</td>
+							<td class="numeric">11</td>
+							<td class="numeric" data-order="0.1282051282051282">12.8%</td>
+							<td class="numeric">12.86</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=36621">James Johnston</a></th>
+							<td>2005 &ndash; 2009</td>
+							<td class="numeric">6</td>
+							<td class="numeric">46</td>
+							<td class="numeric">892</td>
+							<td class="numeric">495</td>
+							<td class="numeric">5</td>
+							<td class="numeric">46</td>
+							<td class="numeric">8</td>
+							<td class="numeric" data-order="0.09803921568627451">9.8%</td>
+							<td class="numeric">11.10</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=520305">Shishir Joshi</a></th>
+							<td>2021 &ndash; 2022</td>
+							<td class="numeric">1</td>
+							<td class="numeric">8</td>
+							<td class="numeric">160</td>
+							<td class="numeric">80</td>
+							<td class="numeric">1</td>
+							<td class="numeric">7</td>
+							<td class="numeric">1</td>
+							<td class="numeric" data-order="0.125">12.5%</td>
+							<td class="numeric">10.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=36620">Tiffany Kaul</a></th>
+							<td>2005 &ndash; 2009</td>
+							<td class="numeric">3</td>
+							<td class="numeric">21</td>
+							<td class="numeric">377</td>
+							<td class="numeric">110</td>
+							<td class="numeric">1</td>
+							<td class="numeric">11</td>
+							<td class="numeric">3</td>
+							<td class="numeric" data-order="0.08333333333333333">8.3%</td>
+							<td class="numeric">5.84</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=63677">Apu Kaushik</a></th>
+							<td>2005 &ndash; 2006</td>
+							<td class="numeric">1</td>
+							<td class="numeric">5</td>
+							<td class="numeric">100</td>
+							<td class="numeric">55</td>
+							<td class="numeric">1</td>
+							<td class="numeric">6</td>
+							<td class="numeric">4</td>
+							<td class="numeric" data-order="0.14285714285714285">14.3%</td>
+							<td class="numeric">11.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=516840">Prajval Kesireddy</a></th>
+							<td>2020 &ndash; 2022</td>
+							<td class="numeric">8</td>
+							<td class="numeric">69</td>
+							<td class="numeric">1279</td>
+							<td class="numeric">1205</td>
+							<td class="numeric">34</td>
+							<td class="numeric">95</td>
+							<td class="numeric">51</td>
+							<td class="numeric" data-order="0.26356589147286824">26.4%</td>
+							<td class="numeric">18.84</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=521836">Nikunj Khandelwal</a></th>
+							<td>2021 &ndash; 2022</td>
+							<td class="numeric">1</td>
+							<td class="numeric">8</td>
+							<td class="numeric">160</td>
+							<td class="numeric">40</td>
+							<td class="numeric">1</td>
+							<td class="numeric">4</td>
+							<td class="numeric">3</td>
+							<td class="numeric" data-order="0.2">20.0%</td>
+							<td class="numeric">5.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=36616">Ilya Kolb</a></th>
+							<td>2004 &ndash; 2008</td>
+							<td class="numeric">1</td>
+							<td class="numeric">12</td>
+							<td class="numeric">235</td>
+							<td class="numeric">180</td>
+							<td class="numeric">2</td>
+							<td class="numeric">21</td>
+							<td class="numeric">12</td>
+							<td class="numeric" data-order="0.08695652173913043">8.7%</td>
+							<td class="numeric">15.32</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=34706">Dmitri Kourennyi</a></th>
+							<td>2004 &ndash; 2005</td>
+							<td class="numeric">1</td>
+							<td class="numeric">1</td>
+							<td class="numeric">9</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">0.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=133116">David Samuel Kramer</a></th>
+							<td>2009 &ndash; 2013</td>
+							<td class="numeric">15</td>
+							<td class="numeric">148</td>
+							<td class="numeric">3032</td>
+							<td class="numeric">6550</td>
+							<td class="numeric">234</td>
+							<td class="numeric">367</td>
+							<td class="numeric">126</td>
+							<td class="numeric" data-order="0.389351081530782">38.9%</td>
+							<td class="numeric">43.21</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=46337">Nikhil Krishnan</a></th>
+							<td>2008 &ndash; 2011</td>
+							<td class="numeric">8</td>
+							<td class="numeric">63</td>
+							<td class="numeric">1265</td>
+							<td class="numeric">360</td>
+							<td class="numeric">5</td>
+							<td class="numeric">35</td>
+							<td class="numeric">13</td>
+							<td class="numeric" data-order="0.125">12.5%</td>
+							<td class="numeric">5.69</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=69158">Sharan Krishnan</a></th>
+							<td>2009 &ndash; 2013</td>
+							<td class="numeric">14</td>
+							<td class="numeric">132</td>
+							<td class="numeric">2515</td>
+							<td class="numeric">2045</td>
+							<td class="numeric">42</td>
+							<td class="numeric">159</td>
+							<td class="numeric">35</td>
+							<td class="numeric" data-order="0.208955223880597">20.9%</td>
+							<td class="numeric">16.26</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=521869">Yashwin Kunam</a></th>
+							<td>2020 &ndash; 2022</td>
+							<td class="numeric">2</td>
+							<td class="numeric">16</td>
+							<td class="numeric">320</td>
+							<td class="numeric">390</td>
+							<td class="numeric">13</td>
+							<td class="numeric">22</td>
+							<td class="numeric">5</td>
+							<td class="numeric" data-order="0.37142857142857144">37.1%</td>
+							<td class="numeric">24.38</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=162327">Anirudh Lagisetty</a></th>
+							<td>2014 &ndash; 2018</td>
+							<td class="numeric">8</td>
+							<td class="numeric">61</td>
+							<td class="numeric">1216</td>
+							<td class="numeric">980</td>
+							<td class="numeric">21</td>
+							<td class="numeric">75</td>
+							<td class="numeric">17</td>
+							<td class="numeric" data-order="0.21875">21.9%</td>
+							<td class="numeric">16.12</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=116346">Karan Lamba</a></th>
+							<td>2012 &ndash; 2013</td>
+							<td class="numeric">1</td>
+							<td class="numeric">7</td>
+							<td class="numeric">80</td>
+							<td class="numeric">10</td>
+							<td class="numeric">0</td>
+							<td class="numeric">1</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">2.50</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=109394">Krish Lamba</a></th>
+							<td>2011 &ndash; 2015</td>
+							<td class="numeric">13</td>
+							<td class="numeric">95</td>
+							<td class="numeric">1849</td>
+							<td class="numeric">1830</td>
+							<td class="numeric">22</td>
+							<td class="numeric">164</td>
+							<td class="numeric">28</td>
+							<td class="numeric" data-order="0.11827956989247312">11.8%</td>
+							<td class="numeric">19.79</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=533117">Charlie Lawrence</a></th>
+							<td>2021 &ndash; 2022</td>
+							<td class="numeric">1</td>
+							<td class="numeric">8</td>
+							<td class="numeric">160</td>
+							<td class="numeric">140</td>
+							<td class="numeric">6</td>
+							<td class="numeric">6</td>
+							<td class="numeric">2</td>
+							<td class="numeric" data-order="0.5">50.0%</td>
+							<td class="numeric">17.50</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=97137">Nam Le</a></th>
+							<td>2011 &ndash; 2015</td>
+							<td class="numeric">3</td>
+							<td class="numeric">28</td>
+							<td class="numeric">520</td>
+							<td class="numeric">185</td>
+							<td class="numeric">0</td>
+							<td class="numeric">19</td>
+							<td class="numeric">1</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">7.12</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=36624">Thai Le</a></th>
+							<td>2006 &ndash; 2010</td>
+							<td class="numeric">1</td>
+							<td class="numeric">8</td>
+							<td class="numeric">132</td>
+							<td class="numeric">10</td>
+							<td class="numeric">0</td>
+							<td class="numeric">2</td>
+							<td class="numeric">2</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">1.52</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=367975">Annette Lee</a></th>
+							<td>2016 &ndash; 2017</td>
+							<td class="numeric">2</td>
+							<td class="numeric">19</td>
+							<td class="numeric">362</td>
+							<td class="numeric">350</td>
+							<td class="numeric">5</td>
+							<td class="numeric">29</td>
+							<td class="numeric">3</td>
+							<td class="numeric" data-order="0.14705882352941177">14.7%</td>
+							<td class="numeric">19.34</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=430">Jasper Lee</a></th>
+							<td>2007 &ndash; 2010</td>
+							<td class="numeric">17</td>
+							<td class="numeric">173</td>
+							<td class="numeric">3450</td>
+							<td class="numeric">6960</td>
+							<td class="numeric">157</td>
+							<td class="numeric">480</td>
+							<td class="numeric">39</td>
+							<td class="numeric" data-order="0.24646781789638933">24.6%</td>
+							<td class="numeric">40.35</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=97094">Linus Lee</a></th>
+							<td>2009 &ndash; 2013</td>
+							<td class="numeric">4</td>
+							<td class="numeric">29</td>
+							<td class="numeric">540</td>
+							<td class="numeric">385</td>
+							<td class="numeric">8</td>
+							<td class="numeric">28</td>
+							<td class="numeric">3</td>
+							<td class="numeric" data-order="0.2222222222222222">22.2%</td>
+							<td class="numeric">14.26</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=36619">Benjamin Lehrman</a></th>
+							<td>2006 &ndash; 2010</td>
+							<td class="numeric">18</td>
+							<td class="numeric">166</td>
+							<td class="numeric">3304</td>
+							<td class="numeric">3085</td>
+							<td class="numeric">46</td>
+							<td class="numeric">265</td>
+							<td class="numeric">51</td>
+							<td class="numeric" data-order="0.14790996784565916">14.8%</td>
+							<td class="numeric">18.67</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=80088">Amanda Li</a></th>
+							<td>2010 &ndash; 2011</td>
+							<td class="numeric">1</td>
+							<td class="numeric">11</td>
+							<td class="numeric">198</td>
+							<td class="numeric">55</td>
+							<td class="numeric">1</td>
+							<td class="numeric">4</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.2">20.0%</td>
+							<td class="numeric">5.56</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=389316">Andrew Li</a></th>
+							<td>2018 &ndash; 2019</td>
+							<td class="numeric">1</td>
+							<td class="numeric">8</td>
+							<td class="numeric">160</td>
+							<td class="numeric">360</td>
+							<td class="numeric">4</td>
+							<td class="numeric">30</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.11764705882352941">11.8%</td>
+							<td class="numeric">45.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=151759">Michelle Li</a></th>
+							<td>2013 &ndash; 2014</td>
+							<td class="numeric">1</td>
+							<td class="numeric">6</td>
+							<td class="numeric">96</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">0.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=41166">Zi Li</a></th>
+							<td>2005 &ndash; 2009</td>
+							<td class="numeric">1</td>
+							<td class="numeric">3</td>
+							<td class="numeric">54</td>
+							<td class="numeric">-5</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric">1</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">-1.85</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=367905">Alan Liu</a></th>
+							<td>2016 &ndash; 2019</td>
+							<td class="numeric">20</td>
+							<td class="numeric">172</td>
+							<td class="numeric">3428</td>
+							<td class="numeric">5435</td>
+							<td class="numeric">182</td>
+							<td class="numeric">315</td>
+							<td class="numeric">89</td>
+							<td class="numeric" data-order="0.36619718309859156">36.6%</td>
+							<td class="numeric">31.71</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=373250">Clement Liu</a></th>
+							<td>2016 &ndash; 2017</td>
+							<td class="numeric">1</td>
+							<td class="numeric">7</td>
+							<td class="numeric">140</td>
+							<td class="numeric">100</td>
+							<td class="numeric">1</td>
+							<td class="numeric">9</td>
+							<td class="numeric">1</td>
+							<td class="numeric" data-order="0.1">10.0%</td>
+							<td class="numeric">14.29</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=367993">Thomas Liu</a></th>
+							<td>2016 &ndash; 2017</td>
+							<td class="numeric">2</td>
+							<td class="numeric">17</td>
+							<td class="numeric">258</td>
+							<td class="numeric">130</td>
+							<td class="numeric">0</td>
+							<td class="numeric">15</td>
+							<td class="numeric">4</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">10.08</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=87201">Andy Lui</a></th>
+							<td>2010 &ndash; 2014</td>
+							<td class="numeric">15</td>
+							<td class="numeric">117</td>
+							<td class="numeric">2232</td>
+							<td class="numeric">1430</td>
+							<td class="numeric">31</td>
+							<td class="numeric">109</td>
+							<td class="numeric">25</td>
+							<td class="numeric" data-order="0.22142857142857142">22.1%</td>
+							<td class="numeric">12.81</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=36626">Simon Lui</a></th>
+							<td>2007 &ndash; 2011</td>
+							<td class="numeric">14</td>
+							<td class="numeric">107</td>
+							<td class="numeric">2055</td>
+							<td class="numeric">1190</td>
+							<td class="numeric">14</td>
+							<td class="numeric">116</td>
+							<td class="numeric">36</td>
+							<td class="numeric" data-order="0.1076923076923077">10.8%</td>
+							<td class="numeric">11.58</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=402146">Alex Luo</a></th>
+							<td>2017 &ndash; 2020</td>
+							<td class="numeric">13</td>
+							<td class="numeric">117</td>
+							<td class="numeric">2154</td>
+							<td class="numeric">2300</td>
+							<td class="numeric">69</td>
+							<td class="numeric">160</td>
+							<td class="numeric">67</td>
+							<td class="numeric" data-order="0.30131004366812225">30.1%</td>
+							<td class="numeric">21.36</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=31295">Xingchen Mai</a></th>
+							<td>2002 &ndash; 2004</td>
+							<td class="numeric">2</td>
+							<td class="numeric">11</td>
+							<td class="numeric">223</td>
+							<td class="numeric">90</td>
+							<td class="numeric">1</td>
+							<td class="numeric">9</td>
+							<td class="numeric">3</td>
+							<td class="numeric" data-order="0.1">10.0%</td>
+							<td class="numeric">8.07</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=437172">Grant Maiorana</a></th>
+							<td>2018 &ndash; 2022</td>
+							<td class="numeric">29</td>
+							<td class="numeric">280</td>
+							<td class="numeric">5584</td>
+							<td class="numeric">11630</td>
+							<td class="numeric">533</td>
+							<td class="numeric">494</td>
+							<td class="numeric">261</td>
+							<td class="numeric" data-order="0.5189873417721519">51.9%</td>
+							<td class="numeric">41.65</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=520299">Ronak Majee</a></th>
+							<td>2021 &ndash; 2022</td>
+							<td class="numeric">1</td>
+							<td class="numeric">8</td>
+							<td class="numeric">160</td>
+							<td class="numeric">275</td>
+							<td class="numeric">11</td>
+							<td class="numeric">15</td>
+							<td class="numeric">8</td>
+							<td class="numeric" data-order="0.4230769230769231">42.3%</td>
+							<td class="numeric">34.38</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=97092">Chanu Malla</a></th>
+							<td>2009 &ndash; 2013</td>
+							<td class="numeric">1</td>
+							<td class="numeric">9</td>
+							<td class="numeric">180</td>
+							<td class="numeric">185</td>
+							<td class="numeric">8</td>
+							<td class="numeric">10</td>
+							<td class="numeric">7</td>
+							<td class="numeric" data-order="0.4444444444444444">44.4%</td>
+							<td class="numeric">20.56</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=389262">Lindsey Maurer</a></th>
+							<td>2018 &ndash; 2020</td>
+							<td class="numeric">10</td>
+							<td class="numeric">89</td>
+							<td class="numeric">1695</td>
+							<td class="numeric">2055</td>
+							<td class="numeric">65</td>
+							<td class="numeric">126</td>
+							<td class="numeric">36</td>
+							<td class="numeric" data-order="0.3403141361256545">34.0%</td>
+							<td class="numeric">24.25</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=190597">Neel Mehta</a></th>
+							<td>2015 &ndash; 2019</td>
+							<td class="numeric">25</td>
+							<td class="numeric">232</td>
+							<td class="numeric">4642</td>
+							<td class="numeric">6915</td>
+							<td class="numeric">271</td>
+							<td class="numeric">371</td>
+							<td class="numeric">172</td>
+							<td class="numeric" data-order="0.4221183800623053">42.2%</td>
+							<td class="numeric">29.79</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=367977">Hayden Mesnick</a></th>
+							<td>2016 &ndash; 2019</td>
+							<td class="numeric">9</td>
+							<td class="numeric">85</td>
+							<td class="numeric">1603</td>
+							<td class="numeric">1300</td>
+							<td class="numeric">17</td>
+							<td class="numeric">113</td>
+							<td class="numeric">17</td>
+							<td class="numeric" data-order="0.13076923076923078">13.1%</td>
+							<td class="numeric">16.22</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=445546">Ella Mowrey</a></th>
+							<td>2018 &ndash; 2019</td>
+							<td class="numeric">1</td>
+							<td class="numeric">8</td>
+							<td class="numeric">160</td>
+							<td class="numeric">45</td>
+							<td class="numeric">2</td>
+							<td class="numeric">2</td>
+							<td class="numeric">1</td>
+							<td class="numeric" data-order="0.5">50.0%</td>
+							<td class="numeric">5.62</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=137884">Rishi Narahari</a></th>
+							<td>2013 &ndash; 2014</td>
+							<td class="numeric">1</td>
+							<td class="numeric">5</td>
+							<td class="numeric">100</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">0.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=481556">Rohan Navaneetha</a></th>
+							<td>2019 &ndash; 2022</td>
+							<td class="numeric">18</td>
+							<td class="numeric">173</td>
+							<td class="numeric">3362</td>
+							<td class="numeric">6205</td>
+							<td class="numeric">223</td>
+							<td class="numeric">346</td>
+							<td class="numeric">120</td>
+							<td class="numeric" data-order="0.39191564147627417">39.2%</td>
+							<td class="numeric">36.91</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=36622">Darin Navran</a></th>
+							<td>2005 &ndash; 2009</td>
+							<td class="numeric">3</td>
+							<td class="numeric">29</td>
+							<td class="numeric">580</td>
+							<td class="numeric">550</td>
+							<td class="numeric">7</td>
+							<td class="numeric">53</td>
+							<td class="numeric">17</td>
+							<td class="numeric" data-order="0.11666666666666667">11.7%</td>
+							<td class="numeric">18.97</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=36614">Sergei Neznanov</a></th>
+							<td>2004 &ndash; 2008</td>
+							<td class="numeric">5</td>
+							<td class="numeric">44</td>
+							<td class="numeric">806</td>
+							<td class="numeric">655</td>
+							<td class="numeric">13</td>
+							<td class="numeric">59</td>
+							<td class="numeric">26</td>
+							<td class="numeric" data-order="0.18055555555555555">18.1%</td>
+							<td class="numeric">16.25</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=137887">Tomi Odukoya</a></th>
+							<td>2013 &ndash; 2019</td>
+							<td class="numeric">3</td>
+							<td class="numeric">23</td>
+							<td class="numeric">420</td>
+							<td class="numeric">320</td>
+							<td class="numeric">6</td>
+							<td class="numeric">32</td>
+							<td class="numeric">18</td>
+							<td class="numeric" data-order="0.15789473684210525">15.8%</td>
+							<td class="numeric">15.24</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=373188">Sam Oguntoyinbo</a></th>
+							<td>2016 &ndash; 2019</td>
+							<td class="numeric">20</td>
+							<td class="numeric">200</td>
+							<td class="numeric">4039</td>
+							<td class="numeric">9325</td>
+							<td class="numeric">325</td>
+							<td class="numeric">510</td>
+							<td class="numeric">130</td>
+							<td class="numeric" data-order="0.38922155688622756">38.9%</td>
+							<td class="numeric">46.17</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=367992">Ngozi Onimoe</a></th>
+							<td>2016 &ndash; 2017</td>
+							<td class="numeric">1</td>
+							<td class="numeric">9</td>
+							<td class="numeric">168</td>
+							<td class="numeric">45</td>
+							<td class="numeric">1</td>
+							<td class="numeric">3</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.25">25.0%</td>
+							<td class="numeric">5.36</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=389313">Andrew Otteson</a></th>
+							<td>2018 &ndash; 2019</td>
+							<td class="numeric">3</td>
+							<td class="numeric">24</td>
+							<td class="numeric">400</td>
+							<td class="numeric">120</td>
+							<td class="numeric">1</td>
+							<td class="numeric">11</td>
+							<td class="numeric">1</td>
+							<td class="numeric" data-order="0.08333333333333333">8.3%</td>
+							<td class="numeric">6.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=389293">Kimball Otteson</a></th>
+							<td>2017 &ndash; 2019</td>
+							<td class="numeric">7</td>
+							<td class="numeric">60</td>
+							<td class="numeric">1050</td>
+							<td class="numeric">350</td>
+							<td class="numeric">5</td>
+							<td class="numeric">34</td>
+							<td class="numeric">13</td>
+							<td class="numeric" data-order="0.1282051282051282">12.8%</td>
+							<td class="numeric">6.67</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=46386">Brian P.</a></th>
+							<td>2008 &ndash; 2009</td>
+							<td class="numeric">1</td>
+							<td class="numeric">8</td>
+							<td class="numeric">87</td>
+							<td class="numeric">85</td>
+							<td class="numeric">1</td>
+							<td class="numeric">7</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.125">12.5%</td>
+							<td class="numeric">19.54</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=1497">Vishal Panchmatia</a></th>
+							<td>2002 &ndash; 2003</td>
+							<td class="numeric">1</td>
+							<td class="numeric">10</td>
+							<td class="numeric">212</td>
+							<td class="numeric">90</td>
+							<td class="numeric">3</td>
+							<td class="numeric">6</td>
+							<td class="numeric">3</td>
+							<td class="numeric" data-order="0.3333333333333333">33.3%</td>
+							<td class="numeric">8.49</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=389337">Ava Parikh</a></th>
+							<td>2018 &ndash; 2021</td>
+							<td class="numeric">14</td>
+							<td class="numeric">121</td>
+							<td class="numeric">2226</td>
+							<td class="numeric">2485</td>
+							<td class="numeric">69</td>
+							<td class="numeric">165</td>
+							<td class="numeric">40</td>
+							<td class="numeric" data-order="0.2948717948717949">29.5%</td>
+							<td class="numeric">22.33</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=116396">Aishwarya Patankar</a></th>
+							<td>2012 &ndash; 2013</td>
+							<td class="numeric">1</td>
+							<td class="numeric">5</td>
+							<td class="numeric">100</td>
+							<td class="numeric">50</td>
+							<td class="numeric">2</td>
+							<td class="numeric">3</td>
+							<td class="numeric">2</td>
+							<td class="numeric" data-order="0.4">40.0%</td>
+							<td class="numeric">10.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=367978">Nikhil Patel</a></th>
+							<td>2016 &ndash; 2017</td>
+							<td class="numeric">1</td>
+							<td class="numeric">9</td>
+							<td class="numeric">164</td>
+							<td class="numeric">95</td>
+							<td class="numeric">1</td>
+							<td class="numeric">8</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.1111111111111111">11.1%</td>
+							<td class="numeric">11.59</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=87200">Andi Peng</a></th>
+							<td>2010 &ndash; 2011</td>
+							<td class="numeric">2</td>
+							<td class="numeric">16</td>
+							<td class="numeric">320</td>
+							<td class="numeric">355</td>
+							<td class="numeric">2</td>
+							<td class="numeric">35</td>
+							<td class="numeric">5</td>
+							<td class="numeric" data-order="0.05405405405405406">5.4%</td>
+							<td class="numeric">22.19</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=41165">Dmitriy Pilipenko</a></th>
+							<td>2005 &ndash; 2009</td>
+							<td class="numeric">3</td>
+							<td class="numeric">24</td>
+							<td class="numeric">502</td>
+							<td class="numeric">445</td>
+							<td class="numeric">8</td>
+							<td class="numeric">46</td>
+							<td class="numeric">27</td>
+							<td class="numeric" data-order="0.14814814814814814">14.8%</td>
+							<td class="numeric">17.73</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=135211">Ajay Pillai</a></th>
+							<td>2004 &ndash; 2006</td>
+							<td class="numeric">2</td>
+							<td class="numeric">19</td>
+							<td class="numeric">366</td>
+							<td class="numeric">145</td>
+							<td class="numeric">2</td>
+							<td class="numeric">13</td>
+							<td class="numeric">3</td>
+							<td class="numeric" data-order="0.13333333333333333">13.3%</td>
+							<td class="numeric">7.92</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=190611">Justin Prindle</a></th>
+							<td>2015 &ndash; 2016</td>
+							<td class="numeric">1</td>
+							<td class="numeric">6</td>
+							<td class="numeric">120</td>
+							<td class="numeric">55</td>
+							<td class="numeric">0</td>
+							<td class="numeric">6</td>
+							<td class="numeric">1</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">9.17</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=407076">Hao Qi</a></th>
+							<td>2017 &ndash; 2020</td>
+							<td class="numeric">14</td>
+							<td class="numeric">123</td>
+							<td class="numeric">2212</td>
+							<td class="numeric">2070</td>
+							<td class="numeric">41</td>
+							<td class="numeric">172</td>
+							<td class="numeric">53</td>
+							<td class="numeric" data-order="0.19248826291079812">19.2%</td>
+							<td class="numeric">18.72</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=80084">William Qu</a></th>
+							<td>2010 &ndash; 2011</td>
+							<td class="numeric">1</td>
+							<td class="numeric">11</td>
+							<td class="numeric">213</td>
+							<td class="numeric">105</td>
+							<td class="numeric">1</td>
+							<td class="numeric">12</td>
+							<td class="numeric">6</td>
+							<td class="numeric" data-order="0.07692307692307693">7.7%</td>
+							<td class="numeric">9.86</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=63676">Hadji Quest</a></th>
+							<td>2005 &ndash; 2006</td>
+							<td class="numeric">1</td>
+							<td class="numeric">5</td>
+							<td class="numeric">100</td>
+							<td class="numeric">220</td>
+							<td class="numeric">4</td>
+							<td class="numeric">19</td>
+							<td class="numeric">6</td>
+							<td class="numeric" data-order="0.17391304347826086">17.4%</td>
+							<td class="numeric">44.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=67294">Eugene Rabinovich</a></th>
+							<td>2008 &ndash; 2011</td>
+							<td class="numeric">5</td>
+							<td class="numeric">39</td>
+							<td class="numeric">683</td>
+							<td class="numeric">1025</td>
+							<td class="numeric">37</td>
+							<td class="numeric">58</td>
+							<td class="numeric">22</td>
+							<td class="numeric" data-order="0.3894736842105263">38.9%</td>
+							<td class="numeric">30.01</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=129746">Shashank Raghavachari</a></th>
+							<td>2009 &ndash; 2013</td>
+							<td class="numeric">11</td>
+							<td class="numeric">96</td>
+							<td class="numeric">1825</td>
+							<td class="numeric">2885</td>
+							<td class="numeric">59</td>
+							<td class="numeric">226</td>
+							<td class="numeric">52</td>
+							<td class="numeric" data-order="0.20701754385964913">20.7%</td>
+							<td class="numeric">31.62</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=107">Noah Rahman</a></th>
+							<td>2002 &ndash; 2005</td>
+							<td class="numeric">4</td>
+							<td class="numeric">37</td>
+							<td class="numeric">820</td>
+							<td class="numeric">3060</td>
+							<td class="numeric">69</td>
+							<td class="numeric">222</td>
+							<td class="numeric">39</td>
+							<td class="numeric" data-order="0.23711340206185566">23.7%</td>
+							<td class="numeric">74.63</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=131665">Rahul Rambhatla</a></th>
+							<td>2012 &ndash; 2015</td>
+							<td class="numeric">5</td>
+							<td class="numeric">44</td>
+							<td class="numeric">884</td>
+							<td class="numeric">1705</td>
+							<td class="numeric">44</td>
+							<td class="numeric">114</td>
+							<td class="numeric">19</td>
+							<td class="numeric" data-order="0.27848101265822783">27.8%</td>
+							<td class="numeric">38.57</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=481554">Prahalad Rao</a></th>
+							<td>2019 &ndash; 2022</td>
+							<td class="numeric">16</td>
+							<td class="numeric">158</td>
+							<td class="numeric">3094</td>
+							<td class="numeric">8025</td>
+							<td class="numeric">365</td>
+							<td class="numeric">329</td>
+							<td class="numeric">148</td>
+							<td class="numeric" data-order="0.5259365994236311">52.6%</td>
+							<td class="numeric">51.87</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=190545">Jerry Ren</a></th>
+							<td>2015 &ndash; 2016</td>
+							<td class="numeric">3</td>
+							<td class="numeric">26</td>
+							<td class="numeric">460</td>
+							<td class="numeric">290</td>
+							<td class="numeric">5</td>
+							<td class="numeric">27</td>
+							<td class="numeric">11</td>
+							<td class="numeric" data-order="0.15625">15.6%</td>
+							<td class="numeric">12.61</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=131666">Wilbert Ren</a></th>
+							<td>2012 &ndash; 2016</td>
+							<td class="numeric">14</td>
+							<td class="numeric">129</td>
+							<td class="numeric">2643</td>
+							<td class="numeric">2460</td>
+							<td class="numeric">78</td>
+							<td class="numeric">161</td>
+							<td class="numeric">64</td>
+							<td class="numeric" data-order="0.3263598326359833">32.6%</td>
+							<td class="numeric">18.62</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=34949">Charlotte S.</a></th>
+							<td>2004 &ndash; 2005</td>
+							<td class="numeric">1</td>
+							<td class="numeric">1</td>
+							<td class="numeric">3</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">0.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=80090">Brian Sang</a></th>
+							<td>2010 &ndash; 2014</td>
+							<td class="numeric">19</td>
+							<td class="numeric">184</td>
+							<td class="numeric">3658</td>
+							<td class="numeric">4070</td>
+							<td class="numeric">126</td>
+							<td class="numeric">228</td>
+							<td class="numeric">20</td>
+							<td class="numeric" data-order="0.3559322033898305">35.6%</td>
+							<td class="numeric">22.25</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=36618">Tejas Sathe</a></th>
+							<td>2005 &ndash; 2009</td>
+							<td class="numeric">2</td>
+							<td class="numeric">19</td>
+							<td class="numeric">355</td>
+							<td class="numeric">465</td>
+							<td class="numeric">7</td>
+							<td class="numeric">44</td>
+							<td class="numeric">16</td>
+							<td class="numeric" data-order="0.13725490196078433">13.7%</td>
+							<td class="numeric">26.20</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=509412">Varun Sathyajeeth</a></th>
+							<td>2020 &ndash; 2022</td>
+							<td class="numeric">6</td>
+							<td class="numeric">52</td>
+							<td class="numeric">902</td>
+							<td class="numeric">1600</td>
+							<td class="numeric">44</td>
+							<td class="numeric">102</td>
+							<td class="numeric">16</td>
+							<td class="numeric" data-order="0.301369863">30.1%</td>
+							<td class="numeric">35.48</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=373192">Sandy Shen</a></th>
+							<td>2016 &ndash; 2017</td>
+							<td class="numeric">2</td>
+							<td class="numeric">18</td>
+							<td class="numeric">270</td>
+							<td class="numeric">155</td>
+							<td class="numeric">3</td>
+							<td class="numeric">12</td>
+							<td class="numeric">2</td>
+							<td class="numeric" data-order="0.2">20.0%</td>
+							<td class="numeric">11.48</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=190594">Gopal Shukla</a></th>
+							<td>2015 &ndash; 2018</td>
+							<td class="numeric">6</td>
+							<td class="numeric">41</td>
+							<td class="numeric">790</td>
+							<td class="numeric">570</td>
+							<td class="numeric">12</td>
+							<td class="numeric">46</td>
+							<td class="numeric">14</td>
+							<td class="numeric" data-order="0.20689655172413793">20.7%</td>
+							<td class="numeric">14.43</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=507723">Easton Singer</a></th>
+							<td>2019 &ndash; 2022</td>
+							<td class="numeric">5</td>
+							<td class="numeric">43</td>
+							<td class="numeric">820</td>
+							<td class="numeric">930</td>
+							<td class="numeric">38</td>
+							<td class="numeric">43</td>
+							<td class="numeric">14</td>
+							<td class="numeric" data-order="0.4691358024691358">46.9%</td>
+							<td class="numeric">22.68</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=215944">Aakash Singh</a></th>
+							<td>2012 &ndash; 2015</td>
+							<td class="numeric">16</td>
+							<td class="numeric">161</td>
+							<td class="numeric">3263</td>
+							<td class="numeric">3365</td>
+							<td class="numeric">69</td>
+							<td class="numeric">238</td>
+							<td class="numeric">10</td>
+							<td class="numeric" data-order="0.2247557003257329">22.5%</td>
+							<td class="numeric">20.63</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=34707">Akshai Singh</a></th>
+							<td>2004 &ndash; 2005</td>
+							<td class="numeric">2</td>
+							<td class="numeric">8</td>
+							<td class="numeric">142</td>
+							<td class="numeric">65</td>
+							<td class="numeric">0</td>
+							<td class="numeric">7</td>
+							<td class="numeric">1</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">9.15</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=36623">Partik Singh</a></th>
+							<td>2006 &ndash; 2010</td>
+							<td class="numeric">10</td>
+							<td class="numeric">84</td>
+							<td class="numeric">1540</td>
+							<td class="numeric">1360</td>
+							<td class="numeric">25</td>
+							<td class="numeric">116</td>
+							<td class="numeric">35</td>
+							<td class="numeric" data-order="0.1773049645390071">17.7%</td>
+							<td class="numeric">17.66</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=110191">Prateek Singh</a></th>
+							<td>2011 &ndash; 2012</td>
+							<td class="numeric">3</td>
+							<td class="numeric">16</td>
+							<td class="numeric">320</td>
+							<td class="numeric">180</td>
+							<td class="numeric">0</td>
+							<td class="numeric">18</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">11.25</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=445542">Pranav Sivaram</a></th>
+							<td>2018 &ndash; 2021</td>
+							<td class="numeric">19</td>
+							<td class="numeric">175</td>
+							<td class="numeric">3378</td>
+							<td class="numeric">7525</td>
+							<td class="numeric">371</td>
+							<td class="numeric">239</td>
+							<td class="numeric">86</td>
+							<td class="numeric" data-order="0.6081967213114754">60.8%</td>
+							<td class="numeric">44.55</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=127043">Michael Sosan</a></th>
+							<td>2012 &ndash; 2013</td>
+							<td class="numeric">1</td>
+							<td class="numeric">5</td>
+							<td class="numeric">100</td>
+							<td class="numeric">20</td>
+							<td class="numeric">0</td>
+							<td class="numeric">2</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">4.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=34704">Chris Sparks</a></th>
+							<td>2004 &ndash; 2005</td>
+							<td class="numeric">1</td>
+							<td class="numeric">10</td>
+							<td class="numeric">213</td>
+							<td class="numeric">115</td>
+							<td class="numeric">3</td>
+							<td class="numeric">7</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.3">30.0%</td>
+							<td class="numeric">10.80</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=209935">Carly Stewart</a></th>
+							<td>2015 &ndash; 2016</td>
+							<td class="numeric">1</td>
+							<td class="numeric">6</td>
+							<td class="numeric">120</td>
+							<td class="numeric">105</td>
+							<td class="numeric">1</td>
+							<td class="numeric">9</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.1">10.0%</td>
+							<td class="numeric">17.50</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=166113">Ben Stoler</a></th>
+							<td>2014 &ndash; 2016</td>
+							<td class="numeric">3</td>
+							<td class="numeric">27</td>
+							<td class="numeric">540</td>
+							<td class="numeric">435</td>
+							<td class="numeric">16</td>
+							<td class="numeric">25</td>
+							<td class="numeric">11</td>
+							<td class="numeric" data-order="0.3902439024390244">39.0%</td>
+							<td class="numeric">16.11</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=190534">Adarsh Subramanian</a></th>
+							<td>2015 &ndash; 2016</td>
+							<td class="numeric">2</td>
+							<td class="numeric">16</td>
+							<td class="numeric">320</td>
+							<td class="numeric">270</td>
+							<td class="numeric">1</td>
+							<td class="numeric">29</td>
+							<td class="numeric">7</td>
+							<td class="numeric" data-order="0.03333333333333333">3.3%</td>
+							<td class="numeric">16.88</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=80087">Sharan Subramanian</a></th>
+							<td>2010 &ndash; 2011</td>
+							<td class="numeric">1</td>
+							<td class="numeric">11</td>
+							<td class="numeric">198</td>
+							<td class="numeric">70</td>
+							<td class="numeric">1</td>
+							<td class="numeric">6</td>
+							<td class="numeric">1</td>
+							<td class="numeric" data-order="0.14285714285714285">14.3%</td>
+							<td class="numeric">7.07</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=521871">Angela Sun</a></th>
+							<td>2020 &ndash; 2022</td>
+							<td class="numeric">4</td>
+							<td class="numeric">34</td>
+							<td class="numeric">670</td>
+							<td class="numeric">620</td>
+							<td class="numeric">13</td>
+							<td class="numeric">48</td>
+							<td class="numeric">11</td>
+							<td class="numeric" data-order="0.21311475409836064">21.3%</td>
+							<td class="numeric">18.51</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=137883">Vishal Sundaram</a></th>
+							<td>2013 &ndash; 2014</td>
+							<td class="numeric">1</td>
+							<td class="numeric">5</td>
+							<td class="numeric">100</td>
+							<td class="numeric">50</td>
+							<td class="numeric">1</td>
+							<td class="numeric">4</td>
+							<td class="numeric">1</td>
+							<td class="numeric" data-order="0.2">20.0%</td>
+							<td class="numeric">10.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=367976">David Tan</a></th>
+							<td>2016 &ndash; 2017</td>
+							<td class="numeric">3</td>
+							<td class="numeric">26</td>
+							<td class="numeric">472</td>
+							<td class="numeric">145</td>
+							<td class="numeric">0</td>
+							<td class="numeric">16</td>
+							<td class="numeric">3</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">6.14</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=198961">Kevin Tang</a></th>
+							<td>2015 &ndash; 2016</td>
+							<td class="numeric">1</td>
+							<td class="numeric">10</td>
+							<td class="numeric">200</td>
+							<td class="numeric">405</td>
+							<td class="numeric">13</td>
+							<td class="numeric">27</td>
+							<td class="numeric">12</td>
+							<td class="numeric" data-order="0.325">32.5%</td>
+							<td class="numeric">40.50</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=445545">Deric Tony Thomas</a></th>
+							<td>2018 &ndash; 2019</td>
+							<td class="numeric">2</td>
+							<td class="numeric">16</td>
+							<td class="numeric">320</td>
+							<td class="numeric">30</td>
+							<td class="numeric">0</td>
+							<td class="numeric">4</td>
+							<td class="numeric">2</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">1.88</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=465185">Devic Tony Thomas</a></th>
+							<td>2018 &ndash; 2019</td>
+							<td class="numeric">1</td>
+							<td class="numeric">10</td>
+							<td class="numeric">148</td>
+							<td class="numeric">15</td>
+							<td class="numeric">0</td>
+							<td class="numeric">2</td>
+							<td class="numeric">1</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">2.03</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=215942">Aniketh Udipi</a></th>
+							<td>2011 &ndash; 2015</td>
+							<td class="numeric">17</td>
+							<td class="numeric">138</td>
+							<td class="numeric">2764</td>
+							<td class="numeric">2155</td>
+							<td class="numeric">49</td>
+							<td class="numeric">154</td>
+							<td class="numeric">24</td>
+							<td class="numeric" data-order="0.2413793103448276">24.1%</td>
+							<td class="numeric">15.59</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=41245">Ashu Udipi</a></th>
+							<td>2006 &ndash; 2010</td>
+							<td class="numeric">15</td>
+							<td class="numeric">136</td>
+							<td class="numeric">2584</td>
+							<td class="numeric">2190</td>
+							<td class="numeric">42</td>
+							<td class="numeric">182</td>
+							<td class="numeric">52</td>
+							<td class="numeric" data-order="0.1875">18.8%</td>
+							<td class="numeric">16.95</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=130511">Amala Uli</a></th>
+							<td>2012 &ndash; 2014</td>
+							<td class="numeric">3</td>
+							<td class="numeric">23</td>
+							<td class="numeric">373</td>
+							<td class="numeric">380</td>
+							<td class="numeric">1</td>
+							<td class="numeric">37</td>
+							<td class="numeric">1</td>
+							<td class="numeric" data-order="0.02631578947368421">2.6%</td>
+							<td class="numeric">20.38</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=44955">Nishanth Uli</a></th>
+							<td>2008 &ndash; 2011</td>
+							<td class="numeric">16</td>
+							<td class="numeric">152</td>
+							<td class="numeric">3019</td>
+							<td class="numeric">8220</td>
+							<td class="numeric">198</td>
+							<td class="numeric">617</td>
+							<td class="numeric">184</td>
+							<td class="numeric" data-order="0.24294478527607363">24.3%</td>
+							<td class="numeric">54.46</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=46385">Robbie W.</a></th>
+							<td>2008 &ndash; 2009</td>
+							<td class="numeric">1</td>
+							<td class="numeric">2</td>
+							<td class="numeric">30</td>
+							<td class="numeric">10</td>
+							<td class="numeric">0</td>
+							<td class="numeric">1</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">6.67</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=367974">Brendan Wang</a></th>
+							<td>2016 &ndash; 2017</td>
+							<td class="numeric">1</td>
+							<td class="numeric">9</td>
+							<td class="numeric">162</td>
+							<td class="numeric">215</td>
+							<td class="numeric">0</td>
+							<td class="numeric">23</td>
+							<td class="numeric">3</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">26.54</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=367979">Colton Wang</a></th>
+							<td>2016 &ndash; 2017</td>
+							<td class="numeric">1</td>
+							<td class="numeric">9</td>
+							<td class="numeric">164</td>
+							<td class="numeric">265</td>
+							<td class="numeric">1</td>
+							<td class="numeric">26</td>
+							<td class="numeric">2</td>
+							<td class="numeric" data-order="0.037037037037037035">3.7%</td>
+							<td class="numeric">32.32</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=190596">George Wang</a></th>
+							<td>2015 &ndash; 2017</td>
+							<td class="numeric">5</td>
+							<td class="numeric">40</td>
+							<td class="numeric">678</td>
+							<td class="numeric">665</td>
+							<td class="numeric">11</td>
+							<td class="numeric">56</td>
+							<td class="numeric">12</td>
+							<td class="numeric" data-order="0.16417910447761194">16.4%</td>
+							<td class="numeric">19.62</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=166114">Max Wang</a></th>
+							<td>2014 &ndash; 2016</td>
+							<td class="numeric">3</td>
+							<td class="numeric">29</td>
+							<td class="numeric">580</td>
+							<td class="numeric">45</td>
+							<td class="numeric">1</td>
+							<td class="numeric">3</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.25">25.0%</td>
+							<td class="numeric">1.55</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=421715">Sam Wang</a></th>
+							<td>2017 &ndash; 2021</td>
+							<td class="numeric">29</td>
+							<td class="numeric">274</td>
+							<td class="numeric">5443</td>
+							<td class="numeric">8240</td>
+							<td class="numeric">326</td>
+							<td class="numeric">416</td>
+							<td class="numeric">162</td>
+							<td class="numeric" data-order="0.4393530997304582">43.9%</td>
+							<td class="numeric">30.28</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=389273">Matthew Wilson</a></th>
+							<td>2017 &ndash; 2019</td>
+							<td class="numeric">6</td>
+							<td class="numeric">56</td>
+							<td class="numeric">990</td>
+							<td class="numeric">1260</td>
+							<td class="numeric">19</td>
+							<td class="numeric">121</td>
+							<td class="numeric">47</td>
+							<td class="numeric" data-order="0.1357142857142857">13.6%</td>
+							<td class="numeric">25.45</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=69160">Joshua Wu</a></th>
+							<td>2009 &ndash; 2013</td>
+							<td class="numeric">12</td>
+							<td class="numeric">104</td>
+							<td class="numeric">1960</td>
+							<td class="numeric">1600</td>
+							<td class="numeric">23</td>
+							<td class="numeric">133</td>
+							<td class="numeric">15</td>
+							<td class="numeric" data-order="0.14743589743589744">14.7%</td>
+							<td class="numeric">16.33</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=372">John Xiang</a></th>
+							<td>2012 &ndash; 2016</td>
+							<td class="numeric">20</td>
+							<td class="numeric">187</td>
+							<td class="numeric">3807</td>
+							<td class="numeric">9030</td>
+							<td class="numeric">452</td>
+							<td class="numeric">297</td>
+							<td class="numeric">144</td>
+							<td class="numeric" data-order="0.6034712950600801">60.3%</td>
+							<td class="numeric">47.44</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=114885">Ryan Xie</a></th>
+							<td>2012 &ndash; 2013</td>
+							<td class="numeric">1</td>
+							<td class="numeric">4</td>
+							<td class="numeric">80</td>
+							<td class="numeric">10</td>
+							<td class="numeric">0</td>
+							<td class="numeric">1</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">2.50</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=183346">Jeffrey Yang</a></th>
+							<td>2012 &ndash; 2016</td>
+							<td class="numeric">18</td>
+							<td class="numeric">155</td>
+							<td class="numeric">3139</td>
+							<td class="numeric">3620</td>
+							<td class="numeric">118</td>
+							<td class="numeric">236</td>
+							<td class="numeric">102</td>
+							<td class="numeric" data-order="0.3333333333333333">33.3%</td>
+							<td class="numeric">23.06</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=163543">Jenny Yang</a></th>
+							<td>2011 &ndash; 2015</td>
+							<td class="numeric">2</td>
+							<td class="numeric">19</td>
+							<td class="numeric">380</td>
+							<td class="numeric">420</td>
+							<td class="numeric">3</td>
+							<td class="numeric">39</td>
+							<td class="numeric">3</td>
+							<td class="numeric" data-order="0.07142857142857142">7.1%</td>
+							<td class="numeric">22.11</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=201560">David Ye</a></th>
+							<td>2015 &ndash; 2018</td>
+							<td class="numeric">9</td>
+							<td class="numeric">85</td>
+							<td class="numeric">1643</td>
+							<td class="numeric">3535</td>
+							<td class="numeric">110</td>
+							<td class="numeric">225</td>
+							<td class="numeric">73</td>
+							<td class="numeric" data-order="0.3283582089552239">32.8%</td>
+							<td class="numeric">43.03</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=402145">Catherine Yu</a></th>
+							<td>2017 &ndash; 2019</td>
+							<td class="numeric">8</td>
+							<td class="numeric">69</td>
+							<td class="numeric">1310</td>
+							<td class="numeric">875</td>
+							<td class="numeric">21</td>
+							<td class="numeric">62</td>
+							<td class="numeric">12</td>
+							<td class="numeric" data-order="0.25301204819277107">25.3%</td>
+							<td class="numeric">13.36</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=97093">Haoran Yuan</a></th>
+							<td>2008 &ndash; 2012</td>
+							<td class="numeric">1</td>
+							<td class="numeric">9</td>
+							<td class="numeric">180</td>
+							<td class="numeric">185</td>
+							<td class="numeric">5</td>
+							<td class="numeric">14</td>
+							<td class="numeric">6</td>
+							<td class="numeric" data-order="0.2631578947368421">26.3%</td>
+							<td class="numeric">20.56</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=57437">Jiakai Z.</a></th>
+							<td>2006 &ndash; 2007</td>
+							<td class="numeric">1</td>
+							<td class="numeric">7</td>
+							<td class="numeric">120</td>
+							<td class="numeric">45</td>
+							<td class="numeric">0</td>
+							<td class="numeric">5</td>
+							<td class="numeric">1</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">7.50</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=91850">Jack Zhai</a></th>
+							<td>2010 &ndash; 2014</td>
+							<td class="numeric">15</td>
+							<td class="numeric">148</td>
+							<td class="numeric">2910</td>
+							<td class="numeric">3340</td>
+							<td class="numeric">88</td>
+							<td class="numeric">233</td>
+							<td class="numeric">62</td>
+							<td class="numeric" data-order="0.27414330218068533">27.4%</td>
+							<td class="numeric">22.96</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=163047">Michael Zhan</a></th>
+							<td>2014 &ndash; 2017</td>
+							<td class="numeric">10</td>
+							<td class="numeric">92</td>
+							<td class="numeric">1865</td>
+							<td class="numeric">2815</td>
+							<td class="numeric">116</td>
+							<td class="numeric">147</td>
+							<td class="numeric">79</td>
+							<td class="numeric" data-order="0.44106463878326996">44.1%</td>
+							<td class="numeric">30.19</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=445491">Scott Zhao</a></th>
+							<td>2018 &ndash; 2019</td>
+							<td class="numeric">2</td>
+							<td class="numeric">17</td>
+							<td class="numeric">270</td>
+							<td class="numeric">350</td>
+							<td class="numeric">11</td>
+							<td class="numeric">20</td>
+							<td class="numeric">3</td>
+							<td class="numeric" data-order="0.3548387096774194">35.5%</td>
+							<td class="numeric">25.93</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=151760">Ruby Zheng</a></th>
+							<td>2013 &ndash; 2014</td>
+							<td class="numeric">1</td>
+							<td class="numeric">6</td>
+							<td class="numeric">96</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">0.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=116418">Steve Zhou</a></th>
+							<td>2012 &ndash; 2016</td>
+							<td class="numeric">6</td>
+							<td class="numeric">45</td>
+							<td class="numeric">857</td>
+							<td class="numeric">405</td>
+							<td class="numeric">3</td>
+							<td class="numeric">40</td>
+							<td class="numeric">8</td>
+							<td class="numeric" data-order="0.06976744186046512">7.0%</td>
+							<td class="numeric">9.45</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=190595">Albert Zhu</a></th>
+							<td>2015 &ndash; 2016</td>
+							<td class="numeric">1</td>
+							<td class="numeric">8</td>
+							<td class="numeric">160</td>
+							<td class="numeric">205</td>
+							<td class="numeric">3</td>
+							<td class="numeric">16</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.15789473684210525">15.8%</td>
+							<td class="numeric">25.62</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=84670">Henry Zhu</a></th>
+							<td>2008 &ndash; 2011</td>
+							<td class="numeric">7</td>
+							<td class="numeric">56</td>
+							<td class="numeric">1049</td>
+							<td class="numeric">1120</td>
+							<td class="numeric">17</td>
+							<td class="numeric">110</td>
+							<td class="numeric">47</td>
+							<td class="numeric" data-order="0.13385826771653545">13.4%</td>
+							<td class="numeric">21.35</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=373194">Ronen Zomber</a></th>
+							<td>2016 &ndash; 2018</td>
+							<td class="numeric">1</td>
+							<td class="numeric">8</td>
+							<td class="numeric">160</td>
+							<td class="numeric">60</td>
+							<td class="numeric">1</td>
+							<td class="numeric">5</td>
+							<td class="numeric">1</td>
+							<td class="numeric" data-order="0.16666666666666666">16.7%</td>
+							<td class="numeric">7.50</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=444045">Derek</a></th>
+							<td>2018 &ndash; 2019</td>
+							<td class="numeric">1</td>
+							<td class="numeric">4</td>
+							<td class="numeric">40</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">0.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=396789">Ian</a></th>
+							<td>2016 &ndash; 2017</td>
+							<td class="numeric">1</td>
+							<td class="numeric">2</td>
+							<td class="numeric">40</td>
+							<td class="numeric">80</td>
+							<td class="numeric">0</td>
+							<td class="numeric">8</td>
+							<td class="numeric">0</td>
+							<td class="numeric" data-order="0.0">0.0%</td>
+							<td class="numeric">40.00</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=69161">Michael</a></th>
+							<td>2009 &ndash; 2010</td>
+							<td class="numeric">1</td>
+							<td class="numeric">7</td>
+							<td class="numeric">108</td>
+							<td class="numeric">50</td>
+							<td class="numeric">2</td>
+							<td class="numeric">4</td>
+							<td class="numeric">4</td>
+							<td class="numeric" data-order="0.3333333333333333">33.3%</td>
+							<td class="numeric">9.26</td></tr><tr>
+							<th><a href="/stats/player/index.jsp?contact_id=46388">Shafiyal</a></th>
+							<td>2008 &ndash; 2009</td>
+							<td class="numeric">1</td>
+							<td class="numeric">3</td>
+							<td class="numeric">40</td>
+							<td class="numeric">10</td>
+							<td class="numeric">1</td>
+							<td class="numeric">0</td>
+							<td class="numeric">1</td>
+							<td class="numeric" data-order="1.0">100.0%</td>
+							<td class="numeric">5.00</td></tr></tbody>
+			</table><p>If this list contains misspelled names, duplicates, or other inaccurate information, please write to <a href="mailto:register@naqt.com">register@naqt.com</a>.</p>
+			
+			<div class="row module-container clear-before" data-equalizer data-equalize-on="medium"><div class="medium-6 columns end"><div class="module" style="background-image: url(/photos/module-backgrounds/explaining.jpg);"><div class="overlay"><div data-equalizer-watch><h1>Explanation of Statistics</h1><p>Confused about all these statistics? We&#8217;ve prepared an overview.</p><a class="button primary" href="/stats/explanation.jsp">Read</a></div></div></div></div></div></section>
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<footer><div class="social">
+
+			<div class="row column">
+
+				Connect with us on
+
+				<a href="https://www.facebook.com/naqtqb"><img src="/template/images/facebook.png" alt="Facebook: facebook.com/naqtqb" width="36" height="36"></a>
+
+				<a href="https://twitter.com/naqt"><img src="/template/images/twitter.png" alt="Twitter: @naqt" width="36" height="36"></a>
+
+				<a href="https://instagram.com/naqtqb"><img src="/template/images/instagram.png" alt="Instagram: @naqtqb" width="36" height="36"></a>
+
+				<a href="https://open.spotify.com/user/naqtquizbowl"><img src="/template/images/spotify.png" alt="Spotify logo" width="36" height="36"></a>
+
+			</div>
+
+		</div>
+
+		<div class="row column links">
+
+			<ul class="vertical medium-horizontal menu">
+
+				<li><a href="/about/terms-of-use.jsp">Terms of Use</a></li>
+
+				<li><a href="/about/privacy-policy.jsp">Privacy Policy</a></li>
+
+				<li><a href="/how-to/">How-To Guides</a></li>
+
+				<li><a href="/order/">Practice Material</a></li>
+
+				<li><a href="/schedule/">Tournament Schedule</a></li><li><a href="/about/">About Us</a></li>
+
+			</ul>
+
+		</div><div class="row column copyright-container">
+
+		<small class="copyright">Copyright 2022 National Academic Quiz Tournaments, LLC</small>
+
+	</div>
+
+	
+
+	<script type="application/ld+json" src="/about/contact.js"></script>
+
+</footer>
+
+
+
+		<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+
+		<script src="//cdn.datatables.net/v/zf/dt-1.10.18/fc-3.2.5/fh-3.1.4/datatables.min.js"></script>
+
+		<script src="/template/datatables-fixed-header.min.js"></script>
+
+		<script src="//cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.full.min.js"></script>
+
+		<script src="/template/datetimepicker.js"></script>
+
+		<script src="/template/main.js"></script>
+
+	</body>
+
+</html>
+
+
+
+

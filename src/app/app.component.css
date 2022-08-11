@@ -1,0 +1,99 @@
+.example-form {
+    min-width:150px;
+    max-width:500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.example-full-width {
+
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.mat-table {
+    width: 100%;
+}
+
+.mat-column-name {
+    border-right: 1px solid currentColor;
+    padding-left: 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.mat-column-end_year {
+    border-right: 1px solid currentColor;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.mat-column-tournaments_played {
+    border-right: 1px solid currentColor;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.mat-column-powers {
+    border-right: 1px solid currentColor;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.mat-column-tens {
+    border-right: 1px solid currentColor;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.mat-column-negs {
+    border-right: 1px solid currentColor;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.mat-column-ppg {
+    border-right: 1px solid currentColor;
+    /* padding-left: 10px; */
+    text-align:center;
+    /* display: inline; 
+    margin: 0px auto; */
+    align-items: center;
+    justify-content: center;
+    padding-right: 0px;
+}
+
+a {
+    display: block;
+    color: white;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0.33em;
+    margin-right: 0;
+    font-weight: bold;
+}
+.inline {
+    display: inline-block
+}
+/* th.mat-header-cell, td.mat-cell {
+    padding: 15px
+} */
