@@ -9,6 +9,7 @@ import nameData from '../nameData.json';
 import powerData from '../powers.json';
 import tenData from '../tens.json';
 import negData from '../negs.json';
+import * as fs from 'fs';
 declare var require: any;
 
 export interface QBPlayer {
@@ -266,10 +267,13 @@ export class AppComponent implements OnInit {
   private getDailyAnswer() {
     var seedrandom = require('seedrandom')
     var dailyrng = seedrandom((new Date()).toISOString().substring(0, 10))
+    let prevNames = fs.readFileSync('names.txt').toString()
+    console.log(prevNames)
     let index = Math.floor(dailyrng()*51)
     let name = qbData[index]["name"] as keyof typeof nameData
     // let index = 33
-    // let name = "Prahalad Rao" as keyof typeof nameData
+    // let name = "Joe" as keyof typeof nameData
+
     this.id = nameData[name]["id"]
     return name
   }
